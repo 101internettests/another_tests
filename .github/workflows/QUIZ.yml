@@ -1,4 +1,4 @@
-name: urls check
+name: QUIZ
 
 on:
   schedule:
