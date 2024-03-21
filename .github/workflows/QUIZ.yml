@@ -38,5 +38,5 @@ jobs:
 
       - name: tests
         # if: "github.event.inputs.deployment_target == 'all'"
-        run: pytest tests/test_url/prod
+        run: pytest tests/quiz/
         continue-on-error: true
