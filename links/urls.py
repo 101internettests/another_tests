@@ -1554,3 +1554,45 @@ second_two_urls = [
     "https://piter-online.net/leningradskaya-oblast/nomera/serebrjanyj",
     "https://piter-online.net/leningradskaya-oblast/nomera/platinovyj"
 ]
+
+dom_internet = ["https://101internet.ru/chelyabinsk/rates/domashnij-internet",
+                "https://101internet.ru/volgograd/rates/domashnij-internet",
+                "https://101internet.ru/voronezh/rates/domashnij-internet",
+                "https://101internet.ru/kazan/rates/domashnij-internet",
+                "https://101internet.ru/ekaterinburg/rates/domashnij-internet",
+                "https://www.moskvaonline.ru/rates/domashnij-internet",
+                "https://www.moskvaonline.ru/moskovskaya-oblast/rates/domashnij-internet",
+                "https://piter-online.net/rates/domashnij-internet",
+                "https://piter-online.net/leningradskaya-oblast/rates/domashnij-internet"]
+
+main_page = ["https://101internet.ru/chelyabinsk",
+             "https://101internet.ru/volgograd",
+             "https://101internet.ru/voronezh",
+             "https://101internet.ru/kazan",
+             "https://101internet.ru/ekaterinburg",
+             "https://www.moskvaonline.ru/rates",
+             "https://www.moskvaonline.ru/moskovskaya-oblast",
+             "https://piter-online.net",
+             "https://piter-online.net/leningradskaya-oblast"]
+
+providers_dom_internet = ["https://101internet.ru/chelyabinsk/providers/rostelecom/rates/domashnij-internet",
+                          "https://101internet.ru/chelyabinsk/providers/dom-ru/rates/domashnij-internet",
+                          "https://101internet.ru/volgograd/providers/dom-ru/rates/domashnij-internet",
+                          "https://101internet.ru/voronezh/providers/rostelecom/rates/domashnij-internet",
+                          "https://101internet.ru/kazan/providers/beeline/rates/domashnij-internet",
+                          "https://101internet.ru/ekaterinburg/providers/rostelecom/rates/domashnij-internet",
+                          "https://www.moskvaonline.ru/providers/beeline/rates/domashnij-internet",
+                          "https://www.moskvaonline.ru/moskovskaya-oblast/providers/beeline/rates/domashnij-internet",
+                          "https://piter-online.net/providers/dom-ru/rates/domashnij-internet",
+                          "https://piter-online.net/leningradskaya-oblast/providers/rostelecom/rates/domashnij-internet"]
+
+providers_about = ["https://101internet.ru/chelyabinsk/providers/rostelecom",
+                   "https://101internet.ru/chelyabinsk/providers/dom-ru",
+                   "https://101internet.ru/volgograd/providers/dom-ru",
+                   "https://101internet.ru/voronezh/providers/rostelecom",
+                   "https://101internet.ru/kazan/providers/beeline",
+                   "https://101internet.ru/ekaterinburg/providers/rostelecom",
+                   "https://www.moskvaonline.ru/providers/beeline",
+                   "https://www.moskvaonline.ru/moskovskaya-oblast/providers/beeline",
+                   "https://piter-online.net/providers/dom-ru",
+                   "https://piter-online.net/leningradskaya-oblast/providers/rostelecom"]

@@ -3,9 +3,12 @@ from links.urls import links, links_urls
 from links.urls import first_links, second_links
 from links.urls import first_urls, second_urls
 from links.urls import first_one_urls, second_two_urls
+from links.urls import dom_internet, main_page
+from links.urls import providers_dom_internet, providers_about
 
 if __name__ == '__main__':
-    for link, redirect_url in zip(first_one_urls, second_two_urls):
+    collection = zip(dom_internet, main_page)
+    for link, redirect_url in collection:
         try:
             r = requests.get(link)
             assert r.url == redirect_url, f'{link}'
