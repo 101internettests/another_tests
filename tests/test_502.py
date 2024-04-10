@@ -1,10 +1,14 @@
 import requests
 
 urls_to_check = [
-        "https://www.example.com",
-        "https://www.google.com",
-        "https://www.github.com"
-    ]
+    "https://101internet.ru/ekaterinburg/providers",
+    "https://101internet.ru/ekaterinburg/providers/rostelecom/rates",
+    "https://101internet.ru/ekaterinburg/operatory/megafon",
+    "https://101internet.ru/ekaterinburg/operatory/megafon/nomera",
+    "https://101internet.ru/ekaterinburg/about/terms-of-use",
+    "https://101internet.ru/ekaterinburg/about/partners",
+    "https://101internet.ru/ekaterinburg/address"
+]
 
 
 class TestUrl:
@@ -17,5 +21,3 @@ class TestUrl:
                     print("502 Bad Gateway error detected!")
             except requests.exceptions.RequestException as e:
                 print(f"An error occurred while checking {url}: {e}")
-
-
