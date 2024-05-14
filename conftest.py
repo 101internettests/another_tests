@@ -14,6 +14,6 @@ def driver():
         options.add_argument("--headless")
     driver = webdriver.Chrome(options=options)
     driver.set_window_size(1920, 1080)
-    # driver.maximize_window()
+    driver.maximize_window()
     yield driver
     driver.quit()
