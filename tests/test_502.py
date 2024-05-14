@@ -1,6 +1,7 @@
 import requests
 
 urls_to_check = [
+"https://101internet.ru/moskovskaya-oblast/operatory/megafon/ratesmobile/3g",
     "https://101internet.ru/ekaterinburg/providers",
     "https://101internet.ru/ekaterinburg/providers/rostelecom/rates",
     "https://101internet.ru/ekaterinburg/operatory/megafon",
