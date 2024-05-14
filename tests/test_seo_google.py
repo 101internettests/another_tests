@@ -10,6 +10,7 @@ import pandas as pd
 from tabulate import tabulate
 import pandas as pd
 
+
 def test_find_competitors_and_website_rank(driver):
     websites_to_check = ["101internet", "moskvaonline", "piter-online"]
     results = []
@@ -18,21 +19,24 @@ def test_find_competitors_and_website_rank(driver):
             driver.get(f"https://www.google.com/search?q={query}")
             search_results = driver.find_elements(By.CSS_SELECTOR, "div.g")
             website_rank = None
+            link = None
 
             for index, result in enumerate(search_results, start=1):
-                link = result.find_elements(By.CSS_SELECTOR, "a")
-                if link:
-                    url = link[0].get_attribute("href")
-                    if url is not None and any(website in url for website in websites_to_check):
+                link_elements = result.find_elements(By.CSS_SELECTOR, "a")
+                if link_elements:
+                    url = link_elements[0].get_attribute("href")
+                    if url and any(website in url for website in websites_to_check):
                         website_rank = index
+                        link = url
                         break
 
-            if website_rank is not None:
-                results.append([website_to_check, query, website_rank])
+            if website_rank is not None and link is not None:
+                results.append([website_to_check, query, website_rank, link])
             else:
-                results.append([website_to_check, query, 'не найдено'])
+                results.append([website_to_check, query, 'не найдено', 'нет ссылки'])
             time.sleep(2)
-    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске'])
+
+    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
     df.to_excel('website_results.xlsx', index=False)
 
 def test_find_competitors_and_website_rank_spb(driver):
@@ -43,21 +47,24 @@ def test_find_competitors_and_website_rank_spb(driver):
             driver.get(f"https://www.google.com/search?q={query}")
             search_results = driver.find_elements(By.CSS_SELECTOR, "div.g")
             website_rank = None
+            link = None
 
             for index, result in enumerate(search_results, start=1):
-                link = result.find_elements(By.CSS_SELECTOR, "a")
-                if link:
-                    url = link[0].get_attribute("href")
-                    if url is not None and any(website in url for website in websites_to_check):
+                link_elements = result.find_elements(By.CSS_SELECTOR, "a")
+                if link_elements:
+                    url = link_elements[0].get_attribute("href")
+                    if url and any(website in url for website in websites_to_check):
                         website_rank = index
+                        link = url
                         break
 
-            if website_rank is not None:
-                results.append([website_to_check, query, website_rank])
+            if website_rank is not None and link is not None:
+                results.append([website_to_check, query, website_rank, link])
             else:
-                results.append([website_to_check, query, 'не найдено'])
+                results.append([website_to_check, query, 'не найдено', 'нет ссылки'])
             time.sleep(2)
-    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске'])
+
+    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
     df.to_excel('website_results_spb.xlsx', index=False)
 
 
@@ -69,19 +76,22 @@ def test_find_competitors_and_website_rank_msk(driver):
             driver.get(f"https://www.google.com/search?q={query}")
             search_results = driver.find_elements(By.CSS_SELECTOR, "div.g")
             website_rank = None
+            link = None
 
             for index, result in enumerate(search_results, start=1):
-                link = result.find_elements(By.CSS_SELECTOR, "a")
-                if link:
-                    url = link[0].get_attribute("href")
-                    if url is not None and any(website in url for website in websites_to_check):
+                link_elements = result.find_elements(By.CSS_SELECTOR, "a")
+                if link_elements:
+                    url = link_elements[0].get_attribute("href")
+                    if url and any(website in url for website in websites_to_check):
                         website_rank = index
+                        link = url
                         break
 
-            if website_rank is not None:
-                results.append([website_to_check, query, website_rank])
+            if website_rank is not None and link is not None:
+                results.append([website_to_check, query, website_rank, link])
             else:
-                results.append([website_to_check, query, 'не найдено'])
+                results.append([website_to_check, query, 'не найдено', 'нет ссылки'])
             time.sleep(2)
-    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске'])
+
+    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
     df.to_excel('website_results_msk.xlsx', index=False)
