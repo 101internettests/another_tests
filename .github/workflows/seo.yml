@@ -35,5 +35,5 @@ jobs:
 
       - name: tests
         # if: "github.event.inputs.deployment_target == 'all'"
-        run: pytest tests/test_seo_google
+        run: pytest tests/test_seo_google.py
         continue-on-error: true
