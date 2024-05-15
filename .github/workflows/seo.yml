@@ -37,3 +37,12 @@ jobs:
         # if: "github.event.inputs.deployment_target == 'all'"
         run: pytest tests/test_seo_google.py
         continue-on-error: true
+
+      - name: Upload result files as artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: SEO Results
+          path: |
+            website_results_msk.xlsx
+            website_results_spb.xlsx
+            website_results.xlsx
