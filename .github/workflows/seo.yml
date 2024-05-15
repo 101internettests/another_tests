@@ -29,17 +29,18 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+             pip install openpyxl
 
       - name: Download all workflow run artifacts
-        uses: actions/download-artifact@v4.1.4
+        uses: actions/download-artifact@v4
 
       - name: tests
         # if: "github.event.inputs.deployment_target == 'all'"
-        run: pytest tests/test_seo_google.py
+        run: pytest tests/test_seo_google.py -k test_find_competitors_and_website_rank
         continue-on-error: true
 
       - name: Upload result files as artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: SEO Results
           path: |
