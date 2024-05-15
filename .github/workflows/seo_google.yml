@@ -1,5 +1,7 @@
-name: seo
+name: seo google
 on:
+  schedule:
+    - cron: "0 7 * * 1,5"
   workflow_dispatch:
 
 env:
@@ -42,9 +44,9 @@ jobs:
       - name: Upload result files as artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: SEO Results
+          name: SEO Results Google
           path: |
-            website_results_msk.xlsx
-            website_results_spb.xlsx
-            website_results_ekb.xlsx
-            website_results.xlsx
+            google_msk.xlsx
+            google_spb.xlsx
+            google_ekb.xlsx
+            google.xlsx

@@ -1,8 +1,8 @@
-name: QUIZ
+name: seo yandex
 
 on:
-#  schedule:
-#    - cron: "0 7 * * 1,5"
+  schedule:
+    - cron: "0 8 * * 1,5"
   workflow_dispatch:
 
 env:
@@ -32,11 +32,21 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+             pip install openpyxl
 
       - name: Download all workflow run artifacts
-        uses: actions/download-artifact@v4.1.4
+        uses: actions/download-artifact@v4
 
       - name: tests
         # if: "github.event.inputs.deployment_target == 'all'"
-        run: pytest tests/quiz/
+        run: pytest tests/test_seo_yandex.py
         continue-on-error: true
+
+      - name: Upload result files as artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: SEO Results Yandex
+          path: |
+            yandex.xlsx
+            yandex_msk.xlsx
+            yandex_spb.xlsx

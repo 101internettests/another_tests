@@ -37,7 +37,7 @@ def test_find_competitors_and_website_rank(driver):
             time.sleep(2)
 
     df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
-    df.to_excel('website_results.xlsx', index=False)
+    df.to_excel('google.xlsx', index=False)
 
 
 def test_find_competitors_and_website_rank_spb(driver):
@@ -66,7 +66,7 @@ def test_find_competitors_and_website_rank_spb(driver):
             time.sleep(2)
 
     df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
-    df.to_excel('website_results_spb.xlsx', index=False)
+    df.to_excel('google_spb.xlsx', index=False)
 
 
 def test_find_competitors_and_website_rank_msk(driver):
@@ -95,7 +95,7 @@ def test_find_competitors_and_website_rank_msk(driver):
             time.sleep(2)
 
     df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
-    df.to_excel('website_results_msk.xlsx', index=False)
+    df.to_excel('google_msk.xlsx', index=False)
 
 
 def test_find_competitors_and_website_rank_ekb(driver):
@@ -124,4 +124,4 @@ def test_find_competitors_and_website_rank_ekb(driver):
             time.sleep(2)
 
     df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
-    df.to_excel('website_results_ekb.xlsx', index=False)
+    df.to_excel('google_ekb.xlsx', index=False)
