@@ -36,7 +36,7 @@ jobs:
 
       - name: tests
         # if: "github.event.inputs.deployment_target == 'all'"
-        run: pytest tests/test_seo_google.py -k test_find_competitors_and_website_rank
+        run: pytest tests/test_seo_google.py
         continue-on-error: true
 
       - name: Upload result files as artifacts
@@ -46,4 +46,5 @@ jobs:
           path: |
             website_results_msk.xlsx
             website_results_spb.xlsx
+            website_results_ekb.xlsx
             website_results.xlsx
