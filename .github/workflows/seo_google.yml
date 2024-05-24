@@ -46,6 +46,9 @@ jobs:
         with:
           name: SEO Results Google
           path: |
+            google_novosibirsk.xlsx
+            google_kransnodar.xlsx
+            google_ufa.xlsx
             google_msk.xlsx
             google_spb.xlsx
             google_ekb.xlsx
