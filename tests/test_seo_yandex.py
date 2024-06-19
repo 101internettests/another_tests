@@ -35,6 +35,35 @@ import pandas as pd
 #     df.to_excel('yandex.xlsx', index=False)*******************************************************-****
 
 
+# def test_find_competitors_and_website_rank_msk(driver):
+#     results = []
+#     websites_to_check = ["moskvaonline.ru"]
+#     for website_to_check in websites_to_check:
+#         for url, filename in zip(url_ms, path_yandex_msk):
+#             driver.get(url)
+#             search_results = driver.find_elements(By.CSS_SELECTOR, "li[data-cid]")
+#             website_rank = None
+#             link = None
+#
+#             for index, result in enumerate(search_results, start=1):
+#                 link_elements = result.find_elements(By.CSS_SELECTOR, "a")
+#                 if link_elements:
+#                     url = link_elements[0].get_attribute("href")
+#                     if url and any(website in url for website in websites_to_check):
+#                         website_rank = index
+#                         link = url
+#                         break
+#
+#             if website_rank is not None and link is not None:
+#                 results.append([website_to_check, filename, website_rank, link])
+#             else:
+#                 results.append([website_to_check, filename, 'не найдено', 'нет ссылки'])
+#
+#             time.sleep(2)
+#
+#     df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
+#     df.to_excel('yandex_msk.xlsx', index=False)
+
 def test_find_competitors_and_website_rank_msk(driver):
     results = []
     websites_to_check = ["moskvaonline.ru"]
@@ -42,27 +71,36 @@ def test_find_competitors_and_website_rank_msk(driver):
         for url, filename in zip(url_ms, path_yandex_msk):
             driver.get(url)
             search_results = driver.find_elements(By.CSS_SELECTOR, "li[data-cid]")
+            top_three_links = []  # Store top three links
             website_rank = None
             link = None
 
-            for index, result in enumerate(search_results, start=1):
+            for result in search_results:
                 link_elements = result.find_elements(By.CSS_SELECTOR, "a")
                 if link_elements:
                     url = link_elements[0].get_attribute("href")
-                    if url and any(website in url for website in websites_to_check):
-                        website_rank = index
+                    if any(website in url for website in websites_to_check):
+                        website_rank = search_results.index(result) + 1
                         link = url
                         break
 
+            for i in range(min(3, len(search_results))):
+                link_elements = search_results[i].find_elements(By.CSS_SELECTOR, "a")
+                if link_elements:
+                    top_three_links.append(link_elements[0].get_attribute("href"))
+
             if website_rank is not None and link is not None:
-                results.append([website_to_check, filename, website_rank, link])
+                result_row = [website_to_check, filename, website_rank, link]
+                result_row.extend(top_three_links)
+                results.append(result_row)
             else:
-                results.append([website_to_check, filename, 'не найдено', 'нет ссылки'])
+                result_row = [website_to_check, filename, 'не найдено', 'нет ссылки']
+                result_row.extend(top_three_links)
+                results.append(result_row)
 
-            time.sleep(2)
-
-    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
-    df.to_excel('yandex_msk.xlsx', index=False)
+            df = pd.DataFrame(results,
+                              columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка', 'Ссылка1', 'Ссылка2', 'Ссылка3'])
+            df.to_excel('yandex_msk.xlsx', index=False)
 
 
 def test_find_competitors_and_website_rank_spb(driver):
@@ -72,57 +110,75 @@ def test_find_competitors_and_website_rank_spb(driver):
         for url, filename in zip(url_spb, path_yandex_spb):
             driver.get(url)
             search_results = driver.find_elements(By.CSS_SELECTOR, "li[data-cid]")
+            top_three_links = []  # Store top three links
             website_rank = None
             link = None
 
-            for index, result in enumerate(search_results, start=1):
+            for result in search_results:
                 link_elements = result.find_elements(By.CSS_SELECTOR, "a")
                 if link_elements:
                     url = link_elements[0].get_attribute("href")
-                    if url and any(website in url for website in websites_to_check):
-                        website_rank = index
+                    if any(website in url for website in websites_to_check):
+                        website_rank = search_results.index(result) + 1
                         link = url
                         break
 
+            for i in range(min(3, len(search_results))):
+                link_elements = search_results[i].find_elements(By.CSS_SELECTOR, "a")
+                if link_elements:
+                    top_three_links.append(link_elements[0].get_attribute("href"))
+
             if website_rank is not None and link is not None:
-                results.append([website_to_check, filename, website_rank, link])
+                result_row = [website_to_check, filename, website_rank, link]
+                result_row.extend(top_three_links)
+                results.append(result_row)
             else:
-                results.append([website_to_check, filename, 'не найдено', 'нет ссылки'])
+                result_row = [website_to_check, filename, 'не найдено', 'нет ссылки']
+                result_row.extend(top_three_links)
+                results.append(result_row)
 
-            time.sleep(2)
-
-    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
-    df.to_excel('yandex_spb.xlsx', index=False)
+            df = pd.DataFrame(results,
+                              columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка', 'Ссылка1', 'Ссылка2', 'Ссылка3'])
+            df.to_excel('yandex_spb.xlsx', index=False)
 
 
 def test_find_competitors_and_website_rank_ufa(driver):
     results = []
     websites_to_check = ["101internet.ru"]
     for website_to_check in websites_to_check:
-        for url, filename in zip(url_ufa, path_yandex_krasnodar):
+        for url, filename in zip(url_ufa, path_yandex_ufa):
             driver.get(url)
             search_results = driver.find_elements(By.CSS_SELECTOR, "li[data-cid]")
+            top_three_links = []  # Store top three links
             website_rank = None
             link = None
 
-            for index, result in enumerate(search_results, start=1):
+            for result in search_results:
                 link_elements = result.find_elements(By.CSS_SELECTOR, "a")
                 if link_elements:
                     url = link_elements[0].get_attribute("href")
-                    if url and any(website in url for website in websites_to_check):
-                        website_rank = index
+                    if any(website in url for website in websites_to_check):
+                        website_rank = search_results.index(result) + 1
                         link = url
                         break
 
+            for i in range(min(3, len(search_results))):
+                link_elements = search_results[i].find_elements(By.CSS_SELECTOR, "a")
+                if link_elements:
+                    top_three_links.append(link_elements[0].get_attribute("href"))
+
             if website_rank is not None and link is not None:
-                results.append([website_to_check, filename, website_rank, link])
+                result_row = [website_to_check, filename, website_rank, link]
+                result_row.extend(top_three_links)
+                results.append(result_row)
             else:
-                results.append([website_to_check, filename, 'не найдено', 'нет ссылки'])
+                result_row = [website_to_check, filename, 'не найдено', 'нет ссылки']
+                result_row.extend(top_three_links)
+                results.append(result_row)
 
-            time.sleep(2)
-
-    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
-    df.to_excel('yandex_ufa.xlsx', index=False)
+            df = pd.DataFrame(results,
+                              columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка', 'Ссылка1', 'Ссылка2', 'Ссылка3'])
+            df.to_excel('yandex_ufa.xlsx', index=False)
 
 
 def test_find_competitors_and_website_rank_krasnodar(driver):
@@ -132,28 +188,36 @@ def test_find_competitors_and_website_rank_krasnodar(driver):
         for url, filename in zip(url_krasnodar, path_yandex_krasnodar):
             driver.get(url)
             search_results = driver.find_elements(By.CSS_SELECTOR, "li[data-cid]")
+            top_three_links = []  # Store top three links
             website_rank = None
             link = None
 
-            for index, result in enumerate(search_results, start=1):
+            for result in search_results:
                 link_elements = result.find_elements(By.CSS_SELECTOR, "a")
                 if link_elements:
                     url = link_elements[0].get_attribute("href")
-                    if url and any(website in url for website in websites_to_check):
-                        website_rank = index
+                    if any(website in url for website in websites_to_check):
+                        website_rank = search_results.index(result) + 1
                         link = url
                         break
 
+            for i in range(min(3, len(search_results))):
+                link_elements = search_results[i].find_elements(By.CSS_SELECTOR, "a")
+                if link_elements:
+                    top_three_links.append(link_elements[0].get_attribute("href"))
+
             if website_rank is not None and link is not None:
-                results.append([website_to_check, filename, website_rank, link])
+                result_row = [website_to_check, filename, website_rank, link]
+                result_row.extend(top_three_links)
+                results.append(result_row)
             else:
-                results.append([website_to_check, filename, 'не найдено', 'нет ссылки'])
+                result_row = [website_to_check, filename, 'не найдено', 'нет ссылки']
+                result_row.extend(top_three_links)
+                results.append(result_row)
 
-            time.sleep(2)
-
-    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
-    df.to_excel('yandex_krasnodar.xlsx', index=False)
-
+            df = pd.DataFrame(results,
+                              columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка', 'Ссылка1', 'Ссылка2', 'Ссылка3'])
+            df.to_excel('yandex_krasnodar.xlsx', index=False)
 
 def test_find_competitors_and_website_rank_novosibirsk(driver):
     results = []
