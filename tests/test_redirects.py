@@ -8,7 +8,7 @@ from links.urls import providers_dom_internet, providers_about
 
 
 if __name__ == '__main__':
-    collection = zip(providers_dom_internet, providers_about)
+    collection = zip(dom_internet, main_page)
     for link, redirect_url in collection:
         try:
             r = requests.get(link)
