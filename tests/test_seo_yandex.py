@@ -224,7 +224,6 @@ def test_find_competitors_and_website_rank_krasnodar(driver):
             time.sleep(2)
 
 
-
 def test_find_competitors_and_website_rank_novosibirsk(driver):
     results = []
     websites_to_check = ["101internet.ru"]
