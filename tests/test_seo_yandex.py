@@ -101,6 +101,7 @@ def test_find_competitors_and_website_rank_msk(driver):
             df = pd.DataFrame(results,
                               columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка', 'Ссылка1', 'Ссылка2', 'Ссылка3'])
             df.to_excel('yandex_msk.xlsx', index=False)
+            time.sleep(2)
 
 
 def test_find_competitors_and_website_rank_spb(driver):
@@ -140,6 +141,7 @@ def test_find_competitors_and_website_rank_spb(driver):
             df = pd.DataFrame(results,
                               columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка', 'Ссылка1', 'Ссылка2', 'Ссылка3'])
             df.to_excel('yandex_spb.xlsx', index=False)
+            time.sleep(2)
 
 
 def test_find_competitors_and_website_rank_ufa(driver):
@@ -179,6 +181,7 @@ def test_find_competitors_and_website_rank_ufa(driver):
             df = pd.DataFrame(results,
                               columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка', 'Ссылка1', 'Ссылка2', 'Ссылка3'])
             df.to_excel('yandex_ufa.xlsx', index=False)
+            time.sleep(2)
 
 
 def test_find_competitors_and_website_rank_krasnodar(driver):
@@ -218,6 +221,9 @@ def test_find_competitors_and_website_rank_krasnodar(driver):
             df = pd.DataFrame(results,
                               columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка', 'Ссылка1', 'Ссылка2', 'Ссылка3'])
             df.to_excel('yandex_krasnodar.xlsx', index=False)
+            time.sleep(2)
+
+
 
 def test_find_competitors_and_website_rank_novosibirsk(driver):
     results = []
@@ -257,3 +263,4 @@ def test_find_competitors_and_website_rank_novosibirsk(driver):
             df = pd.DataFrame(results,
                               columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка', 'Ссылка1', 'Ссылка2', 'Ссылка3'])
             df.to_excel('yandex_novosibirsk.xlsx', index=False)
+            time.sleep(2)
