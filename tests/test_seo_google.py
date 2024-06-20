@@ -39,6 +39,34 @@ import pandas as pd
 #     df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
 #     df.to_excel('google.xlsx', index=False)
 
+# def test_find_competitors_and_website_rank_spb(driver):
+#     websites_to_check = ["piter-online"]
+#     results = []
+#     for website_to_check in websites_to_check:
+#         for query in query_new_spb:
+#             driver.get(f"https://www.google.com/search?q={query}")
+#             search_results = driver.find_elements(By.CSS_SELECTOR, "div.g")
+#             website_rank = None
+#             link = None
+#
+#             for index, result in enumerate(search_results, start=1):
+#                 link_elements = result.find_elements(By.CSS_SELECTOR, "a")
+#                 if link_elements:
+#                     url = link_elements[0].get_attribute("href")
+#                     if url and any(website in url for website in websites_to_check):
+#                         website_rank = index
+#                         link = url
+#                         break
+#
+#             if website_rank is not None and link is not None:
+#                 results.append([website_to_check, query, website_rank, link])
+#             else:
+#                 results.append([website_to_check, query, 'не найдено', 'нет ссылки'])
+#             time.sleep(2)
+#
+#     df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
+#     df.to_excel('google_spb.xlsx', index=False)
+
 def test_find_competitors_and_website_rank_spb(driver):
     websites_to_check = ["piter-online"]
     results = []
@@ -48,6 +76,19 @@ def test_find_competitors_and_website_rank_spb(driver):
             search_results = driver.find_elements(By.CSS_SELECTOR, "div.g")
             website_rank = None
             link = None
+            top_three_links = []  # List to store top 3 links
+
+            for index, result in enumerate(search_results, start=1):
+                if len(top_three_links) >= 3:  # If top 3 links are already found, no need to continue
+                    break
+                link_elements = result.find_elements(By.CSS_SELECTOR, "a")
+                if link_elements:
+                    url = link_elements[0].get_attribute("href")
+                    if url not in top_three_links:  # Avoid duplicates
+                        top_three_links.append(url)  # Add the link to the top 3 list
+
+            while len(top_three_links) < 3:
+                top_three_links.append('нет ссылки')
 
             for index, result in enumerate(search_results, start=1):
                 link_elements = result.find_elements(By.CSS_SELECTOR, "a")
@@ -59,14 +100,44 @@ def test_find_competitors_and_website_rank_spb(driver):
                         break
 
             if website_rank is not None and link is not None:
-                results.append([website_to_check, query, website_rank, link])
+                result_row = [website_to_check, query, website_rank, link] + top_three_links
             else:
-                results.append([website_to_check, query, 'не найдено', 'нет ссылки'])
+                result_row = [website_to_check, query, 'не найдено', 'нет ссылки'] + top_three_links
+
+            results.append(result_row)
             time.sleep(2)
 
-    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
+    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка', 'Ссылка1', 'Ссылка2', 'Ссылка3'])
     df.to_excel('google_spb.xlsx', index=False)
 
+
+# def test_find_competitors_and_website_rank_msk(driver):
+#     websites_to_check = ["moskvaonline"]
+#     results = []
+#     for website_to_check in websites_to_check:
+#         for query in query_new_msk:
+#             driver.get(f"https://www.google.com/search?q={query}")
+#             search_results = driver.find_elements(By.CSS_SELECTOR, "div.g")
+#             website_rank = None
+#             link = None
+#
+#             for index, result in enumerate(search_results, start=1):
+#                 link_elements = result.find_elements(By.CSS_SELECTOR, "a")
+#                 if link_elements:
+#                     url = link_elements[0].get_attribute("href")
+#                     if url and any(website in url for website in websites_to_check):
+#                         website_rank = index
+#                         link = url
+#                         break
+#
+#             if website_rank is not None and link is not None:
+#                 results.append([website_to_check, query, website_rank, link])
+#             else:
+#                 results.append([website_to_check, query, 'не найдено', 'нет ссылки'])
+#             time.sleep(2)
+#
+#     df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
+#     df.to_excel('google_msk.xlsx', index=False)
 
 def test_find_competitors_and_website_rank_msk(driver):
     websites_to_check = ["moskvaonline"]
@@ -77,6 +148,19 @@ def test_find_competitors_and_website_rank_msk(driver):
             search_results = driver.find_elements(By.CSS_SELECTOR, "div.g")
             website_rank = None
             link = None
+            top_three_links = []  # List to store top 3 links
+
+            for index, result in enumerate(search_results, start=1):
+                if len(top_three_links) >= 3:  # If top 3 links are already found, no need to continue
+                    break
+                link_elements = result.find_elements(By.CSS_SELECTOR, "a")
+                if link_elements:
+                    url = link_elements[0].get_attribute("href")
+                    if url not in top_three_links:  # Avoid duplicates
+                        top_three_links.append(url)  # Add the link to the top 3 list
+
+            while len(top_three_links) < 3:
+                top_three_links.append('нет ссылки')
 
             for index, result in enumerate(search_results, start=1):
                 link_elements = result.find_elements(By.CSS_SELECTOR, "a")
@@ -88,12 +172,14 @@ def test_find_competitors_and_website_rank_msk(driver):
                         break
 
             if website_rank is not None and link is not None:
-                results.append([website_to_check, query, website_rank, link])
+                result_row = [website_to_check, query, website_rank, link] + top_three_links
             else:
-                results.append([website_to_check, query, 'не найдено', 'нет ссылки'])
+                result_row = [website_to_check, query, 'не найдено', 'нет ссылки'] + top_three_links
+
+            results.append(result_row)
             time.sleep(2)
 
-    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
+    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка', 'Ссылка1', 'Ссылка2', 'Ссылка3'])
     df.to_excel('google_msk.xlsx', index=False)
 
 
@@ -126,6 +212,34 @@ def test_find_competitors_and_website_rank_msk(driver):
 #     df.to_excel('google_ekb.xlsx', index=False)
 
 
+# def test_find_competitors_and_website_rank_ufa(driver):
+#     websites_to_check = ["101internet"]
+#     results = []
+#     for website_to_check in websites_to_check:
+#         for query in query_new_ufa:
+#             driver.get(f"https://www.google.com/search?q={query}")
+#             search_results = driver.find_elements(By.CSS_SELECTOR, "div.g")
+#             website_rank = None
+#             link = None
+#
+#             for index, result in enumerate(search_results, start=1):
+#                 link_elements = result.find_elements(By.CSS_SELECTOR, "a")
+#                 if link_elements:
+#                     url = link_elements[0].get_attribute("href")
+#                     if url and any(website in url for website in websites_to_check):
+#                         website_rank = index
+#                         link = url
+#                         break
+#
+#             if website_rank is not None and link is not None:
+#                 results.append([website_to_check, query, website_rank, link])
+#             else:
+#                 results.append([website_to_check, query, 'не найдено', 'нет ссылки'])
+#             time.sleep(2)
+#
+#     df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
+#     df.to_excel('google_ufa.xlsx', index=False)
+
 def test_find_competitors_and_website_rank_ufa(driver):
     websites_to_check = ["101internet"]
     results = []
@@ -135,6 +249,19 @@ def test_find_competitors_and_website_rank_ufa(driver):
             search_results = driver.find_elements(By.CSS_SELECTOR, "div.g")
             website_rank = None
             link = None
+            top_three_links = []  # List to store top 3 links
+
+            for index, result in enumerate(search_results, start=1):
+                if len(top_three_links) >= 3:  # If top 3 links are already found, no need to continue
+                    break
+                link_elements = result.find_elements(By.CSS_SELECTOR, "a")
+                if link_elements:
+                    url = link_elements[0].get_attribute("href")
+                    if url not in top_three_links:  # Avoid duplicates
+                        top_three_links.append(url)  # Add the link to the top 3 list
+
+            while len(top_three_links) < 3:
+                top_three_links.append('нет ссылки')
 
             for index, result in enumerate(search_results, start=1):
                 link_elements = result.find_elements(By.CSS_SELECTOR, "a")
@@ -146,14 +273,44 @@ def test_find_competitors_and_website_rank_ufa(driver):
                         break
 
             if website_rank is not None and link is not None:
-                results.append([website_to_check, query, website_rank, link])
+                result_row = [website_to_check, query, website_rank, link] + top_three_links
             else:
-                results.append([website_to_check, query, 'не найдено', 'нет ссылки'])
+                result_row = [website_to_check, query, 'не найдено', 'нет ссылки'] + top_three_links
+
+            results.append(result_row)
             time.sleep(2)
 
-    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
+    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка', 'Ссылка1', 'Ссылка2', 'Ссылка3'])
     df.to_excel('google_ufa.xlsx', index=False)
 
+
+# def test_find_competitors_and_website_rank_kransnodar(driver):
+#     websites_to_check = ["101internet"]
+#     results = []
+#     for website_to_check in websites_to_check:
+#         for query in query_new_krasnodar:
+#             driver.get(f"https://www.google.com/search?q={query}")
+#             search_results = driver.find_elements(By.CSS_SELECTOR, "div.g")
+#             website_rank = None
+#             link = None
+#
+#             for index, result in enumerate(search_results, start=1):
+#                 link_elements = result.find_elements(By.CSS_SELECTOR, "a")
+#                 if link_elements:
+#                     url = link_elements[0].get_attribute("href")
+#                     if url and any(website in url for website in websites_to_check):
+#                         website_rank = index
+#                         link = url
+#                         break
+#
+#             if website_rank is not None and link is not None:
+#                 results.append([website_to_check, query, website_rank, link])
+#             else:
+#                 results.append([website_to_check, query, 'не найдено', 'нет ссылки'])
+#             time.sleep(2)
+#
+#     df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
+#     df.to_excel('google_kransnodar.xlsx', index=False)
 
 def test_find_competitors_and_website_rank_kransnodar(driver):
     websites_to_check = ["101internet"]
@@ -164,6 +321,19 @@ def test_find_competitors_and_website_rank_kransnodar(driver):
             search_results = driver.find_elements(By.CSS_SELECTOR, "div.g")
             website_rank = None
             link = None
+            top_three_links = []  # List to store top 3 links
+
+            for index, result in enumerate(search_results, start=1):
+                if len(top_three_links) >= 3:  # If top 3 links are already found, no need to continue
+                    break
+                link_elements = result.find_elements(By.CSS_SELECTOR, "a")
+                if link_elements:
+                    url = link_elements[0].get_attribute("href")
+                    if url not in top_three_links:  # Avoid duplicates
+                        top_three_links.append(url)  # Add the link to the top 3 list
+
+            while len(top_three_links) < 3:
+                top_three_links.append('нет ссылки')
 
             for index, result in enumerate(search_results, start=1):
                 link_elements = result.find_elements(By.CSS_SELECTOR, "a")
@@ -175,14 +345,44 @@ def test_find_competitors_and_website_rank_kransnodar(driver):
                         break
 
             if website_rank is not None and link is not None:
-                results.append([website_to_check, query, website_rank, link])
+                result_row = [website_to_check, query, website_rank, link] + top_three_links
             else:
-                results.append([website_to_check, query, 'не найдено', 'нет ссылки'])
+                result_row = [website_to_check, query, 'не найдено', 'нет ссылки'] + top_three_links
+
+            results.append(result_row)
             time.sleep(2)
 
-    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
+    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка', 'Ссылка1', 'Ссылка2', 'Ссылка3'])
     df.to_excel('google_kransnodar.xlsx', index=False)
 
+
+# def test_find_competitors_and_website_rank_novosibirsk(driver):
+#     websites_to_check = ["101internet"]
+#     results = []
+#     for website_to_check in websites_to_check:
+#         for query in query_new_novosibirsk:
+#             driver.get(f"https://www.google.com/search?q={query}")
+#             search_results = driver.find_elements(By.CSS_SELECTOR, "div.g")
+#             website_rank = None
+#             link = None
+#
+#             for index, result in enumerate(search_results, start=1):
+#                 link_elements = result.find_elements(By.CSS_SELECTOR, "a")
+#                 if link_elements:
+#                     url = link_elements[0].get_attribute("href")
+#                     if url and any(website in url for website in websites_to_check):
+#                         website_rank = index
+#                         link = url
+#                         break
+#
+#             if website_rank is not None and link is not None:
+#                 results.append([website_to_check, query, website_rank, link])
+#             else:
+#                 results.append([website_to_check, query, 'не найдено', 'нет ссылки'])
+#             time.sleep(2)
+#
+#     df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
+#     df.to_excel('google_novosibirsk.xlsx', index=False)
 
 def test_find_competitors_and_website_rank_novosibirsk(driver):
     websites_to_check = ["101internet"]
@@ -193,6 +393,19 @@ def test_find_competitors_and_website_rank_novosibirsk(driver):
             search_results = driver.find_elements(By.CSS_SELECTOR, "div.g")
             website_rank = None
             link = None
+            top_three_links = []  # List to store top 3 links
+
+            for index, result in enumerate(search_results, start=1):
+                if len(top_three_links) >= 3:  # If top 3 links are already found, no need to continue
+                    break
+                link_elements = result.find_elements(By.CSS_SELECTOR, "a")
+                if link_elements:
+                    url = link_elements[0].get_attribute("href")
+                    if url not in top_three_links:  # Avoid duplicates
+                        top_three_links.append(url)  # Add the link to the top 3 list
+
+            while len(top_three_links) < 3:
+                top_three_links.append('нет ссылки')
 
             for index, result in enumerate(search_results, start=1):
                 link_elements = result.find_elements(By.CSS_SELECTOR, "a")
@@ -204,10 +417,12 @@ def test_find_competitors_and_website_rank_novosibirsk(driver):
                         break
 
             if website_rank is not None and link is not None:
-                results.append([website_to_check, query, website_rank, link])
+                result_row = [website_to_check, query, website_rank, link] + top_three_links
             else:
-                results.append([website_to_check, query, 'не найдено', 'нет ссылки'])
+                result_row = [website_to_check, query, 'не найдено', 'нет ссылки'] + top_three_links
+
+            results.append(result_row)
             time.sleep(2)
 
-    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка'])
+    df = pd.DataFrame(results, columns=['Сайт', 'Запрос', 'Место в поиске', 'Ссылка', 'Ссылка1', 'Ссылка2', 'Ссылка3'])
     df.to_excel('google_novosibirsk.xlsx', index=False)
