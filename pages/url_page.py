@@ -4,14 +4,7 @@ raw_urls = [
     "http://qwerty.ru",
     "http://starnet.ru",
     "http://gelicon.ru",
-    
-   
-    
     "http://obltelecom.ru",
-    "http://dom.mts.ru",
-    
-    
-    "http://spb.megafon.ru",
     "http://spb.albeon.ru",
     "http://interlan.ru",
     "http://lantek.ru",
@@ -24,7 +17,6 @@ raw_urls = [
     "http://severnet.ru",
     "http://starlink.ru",
     "http://viptelecom.su",
-    
     "http://westcall.spb.ru",
     "http://moscow.cnt.ru",
     "http://петросвязь.рф"
@@ -116,7 +108,7 @@ raw_urls = [
     "http://degunino.net",
     "http://комплат.рф",
     "http://birulevo.net",
-    "http://onlime.ru",
+   
     "http://vladivostok.tele2.ru",
     "http://agtel.net",
     "http://infoseti.ru",
@@ -145,9 +137,8 @@ raw_urls = [
     "http://helios-net.ru",
     "http://hloptic.ru",
     "http://globus-telecom.com",
-    "http://radugainternet.ru",
-    "http://bryansk.myttk.ru",
     
+    "http://bryansk.myttk.ru",
     "http://invisat.ru",
     "http://westcall.ru",
     "http://intinform.ru",
@@ -189,7 +180,6 @@ raw_urls = [
     "http://bitway.ru",
     "http://sampo.ru",
     "http://test.ru",
-    
     "http://gorcomnet.ru",
     "http://ptl.ru",
     "http://citytelecom.ru",
@@ -236,13 +226,11 @@ raw_urls = [
     "http://energytelecom.ru",
     "http://bestint.ru",
     "http://northnet.ru",
-    "http://atel.su",
+"http://atel.su",
     "http://ntline.ru",
     "http://lbksao.ru",
     "http://stknet.ru",
-    
     "http://dmdnet.online",
-    
     "http://streamtelecom.ru",
     "http://kat-telecom.ru",
     "http://citiinform.ru",
@@ -296,7 +284,6 @@ raw_urls = [
     "http://moscow.rt.ru",
     "http://primelink.ru",
     "http://МультиЛайн.рф",
-    
     "http://m9com.ru",
     "http://apriko.ru",
     "http://netfast.ru",
@@ -311,7 +298,6 @@ raw_urls = [
     "http://mtel.ru",
     "http://hitechtelecom.ru",
     "http://tiera.ru",
-    "http://interzet.domru.ru",
     "http://home.eltel.net",
     "http://spb.sumtel.ru",
     "http://inetcom.ru",
@@ -385,7 +371,6 @@ raw_urls = [
     "http://rnet.ru",
     "http://prime-tele.com",
     "http://khabarovsk.tele2.ru",
-    
     "http://pinspb.ru",
     "http://teleport-tv.ru",
     "http://lahtainet.ru",
@@ -414,7 +399,7 @@ raw_urls = [
     "http://smarthome.spb.ru",
     "http://garstelecom.ru",
     "http://kolpinonet.ru",
-    "http://interzet.domru.ru",
+
     "http://itns.ru",
     "http://lentel.ru",
     "http://satnet-spb.ru",
@@ -431,7 +416,7 @@ raw_urls = [
     "http://nemiya.com",
     "http://nwinet.ru",
     "http://ptl.ru",
-    "http://interzet.domru.ru",
+    
     "http://hitechtelecom.ru",
     "http://moscow.rt.ru",
     "http://online.spb.rsvo.ru",
@@ -462,7 +447,6 @@ raw_urls = [
     "http://ptl.ru",
     "http://cir-bryansk.ru",
     "http://vermont-it.ru",
-    
     "http://itcn.ru",
     "http://chgnet.ru",
     "http://seven-sky.net",
@@ -470,12 +454,10 @@ raw_urls = [
     "http://lobnya.com",
     "http://altercom.ru",
     "http://oskar.ru",
-    
     "http://linkintel.ru",
     "http://rts22.ru",
     "http://centrus.ru",
     "http://cybertech.ru",
-    
     "http://speedyline.ru",
     "http://telincom.ru",
     "http://himki.net",
@@ -530,8 +512,6 @@ raw_urls = [
     "http://ecotelecom.ru",
     "http://elnet.shchyolkovo.ru",
     "http://elcom-service.ru",
-    
-    
     "http://unilines.ru",
     "http://gorcomnet.ru",
     "http://tz.ru",
@@ -566,7 +546,7 @@ raw_urls = [
     "http://eltv.ru",
     "http://elkatel.ru",
     "http://юг-телеком.рф",
-    "http://freshtel.ru",
+    
     "http://ozmatrix.ru",
     "http://a2site.bget.ru",
     "http://oz-web.ru",
@@ -594,7 +574,7 @@ raw_urls = [
     "http://deepweb.spb.ru",
     "http://eps-online.spb.ru",
     "http://sibcom-nsk.ru",
-    "http://interzet.domru.ru",
+    
     "http://ktv-spb.ru",
     "http://slavia.su",
     "http://lancktelecom.ru",
@@ -667,7 +647,7 @@ raw_urls = [
     "http://nsk.sibirtelecom.ru",
     "http://synterra.ru",
     "http://real-net.org",
-    "http://nsk.mts.ru",
+    
     "http://nsk.myttk.ru",
     "http://enforta.ru",
     "http://nsk.b2b.domru.ru",
@@ -702,7 +682,7 @@ raw_urls = [
     "http://pss.internet2.ru",
     "http://khabarovsk.tele2.ru",
     "http://voktel.com",
-    "http://myttk.ru",
+    
     "http://efirnn.ru",
     "http://mosnet.ru",
     "http://ptl.ru",
@@ -775,7 +755,7 @@ raw_urls = [
     "http://nn.nm-s.ru",
     "http://nn.ertelecom.ru",
     "http://spb.b2b.domru.ru",
-    "http://nnov.mts.ru",
+    
     "http://enforta.ru",
     "http://nizhniy-novgorod.beeline.ru",
     "http://nnovgorod.rt.ru",
@@ -816,7 +796,7 @@ raw_urls = [
     "http://jtcom.ru",
     "http://smrk.ru",
     "http://sibintek.ru",
-    "http://arctel.ru",
+    
     "http://mb-samara.ru",
     "http://samara.domru.ru",
     "http://transfer.su",
@@ -826,7 +806,7 @@ raw_urls = [
     "http://gesnet.ru",
     "http://npointerro.ru",
     "http://omsk.rt.ru",
-    "http://omsk.mts.ru",
+    
     "http://kotlowan.net",
     "http://m-omsk.ru",
     "http://cocos.ru",
@@ -845,7 +825,6 @@ raw_urls = [
     "http://omsk.beeline.ru",
     "http://tbt.ru",
    
-    "http://omsk.wstream.ru",
     "http://zaoipnet.ru",
     "http://pretel.ru",
     "http://synterra.ru",
@@ -892,8 +871,6 @@ raw_urls = [
     "http://enforta.ru",
     "http://insatcom-v.ru",
     "http://volnamobile.ru",
-    
-    
     "http://volgograd.beeline.ru",
     "http://skylink.ru",
     "http://volgograd.ertelecom.ru",
@@ -913,12 +890,10 @@ raw_urls = [
     "http://forwardnet.ru",
     "http://vlink.ru",
     "http://comrise.ru",
-   
     "http://gorsv74.ru",
     "http://sutc.ru",
     "http://chel.ultinet.ru",
     "http://it-com.tv",
-   
     "http://modem.ru",
     "http://ural-net.ru",
     "http://chics.ru",
@@ -998,7 +973,6 @@ raw_urls = [
     "http://innor.ru",
     "http://ptl.ru",
     "http://siberianet.ru",
-   
     "http://krsk.domru.ru",
     "http://citytelecom.ru",
     "http://enforta.ru",
@@ -1012,7 +986,6 @@ raw_urls = [
     "http://voronezh.beeline.ru",
     "http://saratov.ertelecom.ru",
     "http://internet96.ru",
-    "http://beeline.ru",
     "http://svyaztelecom.net",
     "http://volga.ttk.ru",
     "http://altura.ru",
@@ -1085,7 +1058,7 @@ raw_urls = [
     "http://alternativa.su",
     "http://broadband.golden.ru",
     "http://krasnoyarsk.golden.ru",
-    "http://altegronet.ru",
+    
     "http://bashnet.ru",
     "http://enforta.ru",
     "http://broadband.golden.ru",
@@ -1109,7 +1082,6 @@ raw_urls = [
     "http://ryazan.b2b.domru.ru",
     "http://ryazan.domru.ru",
     "http://ttk-krasnodar.ru",
-    
     "http://krasnodar.south.rt.ru",
     "http://skylink.ru",
     "http://ptl.ru",
@@ -1138,13 +1110,12 @@ raw_urls = [
     "http://sctv.ru",
     "http://icom.net.ru",
     "http://kvts.ru",
-    "http://arctel.ru",
-    "http://arctel.ru",
-    "http://arctel.ru",
+    
+    
+    
     "http://yar.lancktelecom.ru",
-    "http://arctel.ru",
+    
     "http://jnn.ru",
-   
     "http://yarvolna.net",
     "http://netis.ru",
     "http://zavolga.net",
@@ -1166,13 +1137,12 @@ raw_urls = [
     "http://progtech.ru",
     "http://obl-com.ru",
     "http://ulyanovsk.rt.ru",
-   
     "http://ul.ru",
     "http://uln.mts.ru",
     "http://alterlan.ru",
     "http://sputnik.sg",
     "http://lifelink.ru",
-    "http://radugainternet.ru",
+    
     "http://iptk.ru",
     "http://metromax.ru",
     "http://ulyanovsk.beeline.ru",
@@ -1181,13 +1151,12 @@ raw_urls = [
     "http://ptl.ru",
     "http://aiseti.ru",
     "http://ptl.ru",
-    "http://radugainternet.ru",
+    
     "http://sevtele.com",
     "http://enforta.ru",
     "http://vladtelecom.net",
     "http://vladivostok.beeline.ru",
     "http://metromax.ru",
-    
     "http://enforta.ru",
     "http://orbitaplusm.ru",
     "http://krasnodar.beeline.ru",
@@ -1201,15 +1170,12 @@ raw_urls = [
     "http://nivad.ru",
     "http://irkutsk.ttk.ru",
     "http://inet.kemnet.ru",
-   
     "http://izhevsk.myttk.ru",
-   
     "http://udcom.ru",
     "http://udm.mts.ru",
     "http://vologda.mts.ru",
     "http://voronezh.mts.ru",
     "http://kaluga.mts.ru",
-    "http://kursk.mts.ru",
     "http://enforta.ru",
     "http://orel.mts.ru",
     "http://smolensk.mts.ru",
@@ -1218,7 +1184,6 @@ raw_urls = [
     "http://mark.ru",
     "http://izhnet.ru",
     "http://izhevsk.domru.ru",
-   
     "http://bryansk.domru.ru",
     "http://volgograd.citydom.ru",
     "http://voronezh.domru.ru",
@@ -1273,8 +1238,8 @@ raw_urls = [
     "http://orange-business.com",
     "http://dom-control.ru",
     "http://regsv.com",
-    "http://beeline.ru",
-    "http://arctel.ru",
+    
+    
     "http://dataline.ru",
     "http://disly.dsv.ru",
     "http://redcom.ru",
@@ -1313,29 +1278,13 @@ raw_urls = [
     "http://klg.peterhome.ru",
     "http://peterhome.ru",
     "http://en-ter.ru",
-    "http://arkhangelsk.beeline.ru",
-    "http://astrakhan.beeline.ru",
     "http://telplus.ru",
-    "http://belgorod.beeline.ru",
-    "http://belgorod.mts.ru",
-    "http://bryansk.beeline.ru",
     "http://disly.dsv.ru",
-    "http://irkutsk.beeline.ru",
     "http://narodinet.ru",
-    "http://kaliningrad.beeline.ru",
-    "http://kaluga.beeline.ru",
-    "http://kursk.beeline.ru",
     "http://infotecstt.ru",
-    "http://lipetsk.beeline.ru",
     "http://icc-mt.ru",
-    
-    "http://beeline.ru",
-    "http://beeline.ru",
     "http://kuban.mts.ru",
-    
-    
     "http://tula.ertelecom.ru",
-    
     "http://businessbox.ru",
     "http://internet96.ru",
     "http://businessbox.ru",
@@ -1371,7 +1320,6 @@ raw_urls = [
     "http://hausnet.ru",
     "http://ryazan.domolink.ru",
     "http://lipetsk.myttk.ru",
-   
     "http://ctline.ru",
     "http://elfcom.ru",
     "http://tz.ru",
@@ -1404,22 +1352,15 @@ raw_urls = [
     "http://bryansktel.ru",
     "http://itl.ru",
     "http://vvo.ru",
-    "http://radugainternet.ru",
+    
     "http://baza35.net",
     "http://j-volga.ru",
-    "http://arctel.ru",
+    
     "http://infolada.ru",
     "http://comstar-uts.ru",
     "http://tehnosoft.ru",
     "http://enforta.com",
-    "http://effortel.ru",
-    "http://effortel.ru",
-    "http://effortel.ru",
-    "http://effortel.ru",
-    "http://effortel.ru",
-    "http://effortel.ru",
-    "http://effortel.ru",
-    "http://effortel.ru",
+"http://effortel.ru",
     "http://inko-telecom.ru",
     "http://net35.ru",
     "http://infy.ru",
@@ -1453,7 +1394,7 @@ raw_urls = [
     "http://skysib.com",
     "http://irkutsk.dom.ru",
     "http://byte-kuzbass.ru",
-    "http://myttk.ru",
+    
     "http://enforta.com",
     "http://ortel.ru",
     "http://wi-te.ru",
@@ -1496,7 +1437,6 @@ raw_urls = [
     "http://etype.ru",
     "http://wbt.ru",
     "http://acmetelecom.ru",
-    "http://kurgan.mts.ru",
     "http://gazinter.net",
     "http://sovatelecom.ru",
     "http://tis-dialog.ru",
@@ -1623,7 +1563,7 @@ raw_urls = [
     "http://rekom.net",
     "http://wimax-wifi.ru",
     "http://tesnet.ru",
-    "http://myttk.ru",
+    
     "http://fast70net.ru",
     "http://lazonet.tomsk.ru",
     "http://modelnet.tomsk.ru",
@@ -1634,7 +1574,6 @@ raw_urls = [
     "http://nvtc.ru",
     "http://zaoproxy.ru",
     "http://mycentra.ru",
-    "http://ivanovo.beeline.ru",
     "http://enforta.com",
     "http://woccom.ru",
     "http://ivanovo.domolink.ru",
@@ -1711,18 +1650,17 @@ raw_urls = [
     "http://enforta.ru",
     "http://skylink.ru",
     "http://j-volga.ru",
-    "http://nnov.mts.ru",
     "http://bca.ru",
     "http://isvs.ru",
     "http://mega.nn.ru",
     "http://nov.peterstar.ru",
     "http://quantum.ru",
-    "http://interzet.domru.ru",
+    
     "http://mxc.ru",
     "http://avangard-dsl.ru",
     
     "http://novgorod.aliance-pro.ru",
-    "http://effortel.ru",
+    
     "http://orangenet.ru",
     "http://novline.ru",
     "http://natm.ru",
@@ -1730,7 +1668,6 @@ raw_urls = [
     "http://port33.ru",
     "http://teleline.ru",
     "http://penza.com.ru",
-   
     "http://disly.dsv.ru",
     "http://mgdn.ru",
     "http://arbuz.ru",
@@ -1762,15 +1699,15 @@ raw_urls = [
     "http://kazgorset.ru",
     "http://disly.dsv.ru",
     "http://enforta.ru",
-    "http://radugainternet.ru",
+    
     "http://zaoipnet.ru",
     "http://birobidzhan.beeline.ru",
     "http://vladikavkaz.beeline.ru",
     "http://zaoipnet.ru",
-    "http://radugainternet.ru",
+    
     "http://skylink.ru",
     "http://zaoipnet.ru",
-    "http://radugainternet.ru",
+    
     "http://citylan.grozn.ru",
     "http://intertelecom.org",
     "http://scatplus.ru",
@@ -1803,7 +1740,7 @@ raw_urls = [
     "http://ongnetplus.ru",
     "http://netorn.ru",
     "http://support.kosnet.ru",
-    "http://radugainternet.ru",
+    
     "http://blagoveshchensk.myttk.ru",
     "http://tsl.ru",
     "http://tlvx.ru",
@@ -1819,16 +1756,15 @@ raw_urls = [
     "http://novotelecom.ru",
     "http://micronet.ru",
     "http://nsk.sibset.ru",
-    "http://nsk.mts.ru",
     "http://inetika.me",
-    "http://omsk.wstream.ru",
+   
     "http://mi.ru",
-    "http://myttk.ru",
+    
     "http://nk-net.ru",
     
     "http://hl.ru",
     "http://zaoipnet.ru",
-    "http://radugainternet.ru",
+    
     "http://pretel.ru",
     "http://dinet.ru",
     "http://r-line.ru",
@@ -1860,7 +1796,6 @@ raw_urls = [
     "http://mtx-karelia.ru",
     "http://viptec.ru",
     "http://kazan.b2b.domru.ru",
-    "http://chss.ru",
     "http://at-home.ru",
     "http://etk.ru",
     "http://cubitel.ru",
@@ -2008,37 +1943,26 @@ raw_urls = [
     "http://irkutsk.mts.ru",
     "http://kemerovo.sibset.ru",
     "http://modus33.ru",
-    
     "http://infodom48.ru",
     "http://justlan.ru",
     "http://stvnn.ru",
     "http://gisnet.ru",
     "http://cifra1.ru",
     "http://nkoort.ru",
-   
     "http://sobinka.net",
-    
-    
     "http://vologda.beeline.ru",
     "http://nche.beeline.ru",
     "http://murmansk.beeline.ru",
     "http://ulu.domru.ru",
     "http://omskaya-obl.beeline.ru",
-    
-    
-    
     "http://monnet.ru",
-    "http://beeline.ru",
     "http://gumsnet.ru",
     "http://rostov.domru.ru",
     "http://wainet.ru",
     "http://enforta.ru",
-    "http://dom.mts.ru",
     "http://enforta.ru",
     "http://enforta.ru",
     "http://irkutsk.domru.ru",
-   
-   
     "http://orionnet.ru",
     "http://video-nsk.com",
     "http://nwlink.spb.ru",
@@ -2076,7 +2000,7 @@ raw_urls = [
     "http://eao.rt.ru",
     "http://samara.rt.ru",
     "http://saratov.rt.ru",
-    "http://msk.tele2.ru",
+    
     "http://tula.rt.ru",
     "http://tomsk.sibir.rt.ru",
     "http://chelyabinsk.rt.ru",
@@ -2144,41 +2068,20 @@ raw_urls = [
     "http://econotel.ru",
     "http://tel-kom.ru",
     "http://optimacoms.ru",
-    "http://radugainternet.ru",
-    "http://radugainternet.ru",
-    "http://buryatia.megafon.ru",
-    "http://altrep.megafon.ru",
-    "http://dagestan.megafon.ru",
     "http://spb.rt.ru",
-    "http://radugainternet.ru",
-    "http://dagestan.mts.ru",
-    "http://sfera-internet.ru",
-    "http://orenburg.tele2.ru",
-    "http://orenburg.tele2.ru",
-    "http://kbr.megafon.ru",
-    "http://kalmykia.megafon.ru",
     "http://nn.domru.ru",
     "http://kursk.domru.ru",
     "http://kamchatka.rt.ru",
     "http://maryel.rt.ru",
     "http://mordoviya.rt.ru",
     "http://novosibirsk.rt.ru",
-    "http://khakasia.mts.ru",
-    "http://barnaul.mts.ru",
-    "http://amur.mts.ru",
-    "http://chukotka.mts.ru",
-    "http://moscow.megafon.ru",
     "http://sakhalin.rt.ru",
     "http://tuva.rt.ru",
-    "http://radugainternet.ru",
-    "http://radugainternet.ru",
     "http://eao.tele2.ru",
-    "http://radugainternet.ru",
     "http://ikorp.ru",
     "http://amur.mts.ru",
     "http://i-c-n.ru",
     "http://intelway.ru",
-    "http://radugainternet.ru",
     "http://arkhangelsk.mts.ru",
     "http://bashkortostan.mts.ru",
     "http://bryansk.mts.ru",
@@ -2192,9 +2095,6 @@ raw_urls = [
     "http://elista.mts.ru",
     "http://kchr.mts.ru",
     "http://karelia.mts.ru",
-    
-    
-    
     "http://kostroma.mts.ru",
     "http://kras.mts.ru",
     "http://korolev-tel.ru",
@@ -2219,131 +2119,16 @@ raw_urls = [
     "http://khakasia.mts.ru",
     "http://chechnya.mts.ru",
     "http://chukotka.mts.ru",
-    "http://freshtel.ru",
-    "http://freshtel.ru",
-    "http://freshtel.ru",
-    "http://freshtel.ru",
-    "http://freshtel.ru",
-    "http://freshtel.ru",
-    "http://freshtel.ru",
-    "http://freshtel.ru",
-    "http://altay.megafon.ru",
-    "http://amur.megafon.ru",
-    "http://astrakhan.megafon.ru",
-    "http://bel.megafon.ru",
-    "http://vl.megafon.ru",
-    "http://volgograd.megafon.ru",
-    "http://volgograd.megafon.ru",
-    "http://vrn.megafon.ru",
-    "http://eao.megafon.ru",
-    "http://chita.megafon.ru",
-    "http://mariel.tele2.ru",
-    "http://iv.megafon.ru",
-    "http://irkutsk.megafon.ru",
-    "http://klg.megafon.ru",
-    "http://kamchatka.megafon.ru",
-    "http://kem.megafon.ru",
-    "http://kirov.megafon.ru",
-    "http://kstr.megafon.ru",
-    "http://krasnodar.megafon.ru",
-    "http://kras.megafon.ru",
-    "http://magadan.megafon.ru",
-    "http://nn.megafon.ru",
-    "http://vdialoge.com",
-    "http://nn.megafon.ru",
-    "http://nsk.megafon.ru",
-    "http://nsk.megafon.ru",
-    "http://omsk.megafon.ru",
-    "http://omsk.megafon.ru",
+"http://freshtel.ru",
     "http://orenburg.megafon.ru",
     "http://orl.megafon.ru",
     "http://ktvb.ru",
-    "http://penza.megafon.ru",
-    "http://kazan.tele2.ru",
-    "http://kazan.tele2.ru",
-    "http://chuvashia.tele2.ru",
-    "http://perm.megafon.ru",
-    "http://prim.megafon.ru",
-    "http://bashkortostan.megafon.ru",
-    "http://bashkortostan.megafon.ru",
-    "http://ingushetia.megafon.ru",
-    "http://komi.megafon.ru",
-    "http://mariel.megafon.ru",
-    "http://metroline.ru",
-    "http://mordovia.megafon.ru",
-    "http://sakha.megafon.ru",
-    "http://tatarstan.megafon.ru",
-    "http://tyva.megafon.ru",
-    "http://hakas.megafon.ru",
-    "http://rostov.megafon.ru",
-    "http://rostov.megafon.ru",
-    "http://samara.megafon.ru",
-    "http://samara.megafon.ru",
-    "http://skh.megafon.ru",
-    "http://svr.megafon.ru",
-    "http://chuvashia.tele2.ru",
-    "http://uln.tele2.ru",
-    "http://uln.tele2.ru",
-    "http://mordovia.tele2.ru",
-    "http://mordovia.tele2.ru",
-    "http://penza.tele2.ru",
-    "http://svr.megafon.ru",
-    "http://sml.megafon.ru",
-    "http://stavropol.megafon.ru",
-    "http://tmb.megafon.ru",
-    "http://tver.megafon.ru",
-    "http://tula.megafon.ru",
-    "http://tyumen.megafon.ru",
-    "http://udm.megafon.ru",
-    "http://ulyanovsk.megafon.ru",
-    "http://khb.megafon.ru",
-    "http://chel.megafon.ru",
-    "http://chechnya.megafon.ru",
-    "http://chuvashia.megafon.ru",
-    "http://chukotka.megafon.ru",
-    "http://yar.megafon.ru",
-    "http://kchr.megafon.ru",
-    "http://lc.megafon.ru",
     "http://ks.megafon.ru",
     "http://domokom.ru",
     "http://vo47.ru",
-    "http://kyber-net.ru",
-    "http://penza.tele2.ru",
-    "http://samara.tele2.ru",
-    "http://samara.tele2.ru",
-    "http://saratov.tele2.ru",
-    "http://saratov.tele2.ru",
-    "http://filanco.ru",
-    "http://anadyr.beeline.ru",
-    "http://blagoveshchensk.beeline.ru",
-    "http://kyzyl.beeline.ru",
-    "http://velikiy-novgorod.beeline.ru",
-    "http://vladimir.beeline.ru",
-    "http://groznyy.beeline.ru",
-    "http://moscow.megafon.ru",
-    "http://izhevsk.beeline.ru",
-    "http://yoshkar-ola.beeline.ru",
-    "http://kirov.beeline.ru",
-    "http://makhachkala.beeline.ru",
-    "http://ingushetiya.beeline.ru",
     "http://фринет.рф",
     "http://chudonet.net",
-    "http://nalchik.beeline.ru",
-    
-    
-    
-    
-    
-    
     "http://abba.sibset.ru",
-    "http://ryazan.beeline.ru",
-    
-    
-    
-    
-    "http://cherkessk.beeline.ru",
-    
-    
     "http://piramida.sibmf.ru",
     "http://lancronix.ru",
     "http://alloinkognito.ru",
@@ -2381,7 +2166,6 @@ raw_urls = [
     "http://tellenet.ru",
     "http://iq-internet.ru",
     "http://tula.mts.ru",
-    "http://radugainternet.ru",
     "http://nsk.domru.ru",
     "http://nsk.tvoe.tv",
     "http://ittelecom.su",
@@ -2487,7 +2271,6 @@ raw_urls = [
     "http://ego-net.ru",
     "http://amds.ru",
     "http://speedyline.ru",
-   
     "http://zvezdatelecom.net",
     "http://kem.ru",
     "http://intcom.info",
@@ -2532,7 +2315,6 @@ raw_urls = [
     "http://mgn.ru",
     "http://is-mmk.ru",
     "http://orion-skt.ru",
-   
     "http://mgn.b2b.domru.ru",
     "http://ucomgn.ru",
     "http://lightnet.su",
@@ -2590,32 +2372,18 @@ raw_urls = [
     "http://iiat.ru",
     "http://itcomnet.ru",
     "http://ilogica.ru",
-    "http://onlime.ru",
-    "http://atel.su",
-    "http://atel.su",
-    "http://atel.su",
-    "http://atel.su",
-    "http://atel.su",
-    "http://atel.su",
     "http://starline.pro",
     "http://avantel.ru",
     "http://netintel.ru",
     "http://msk.avantel.ru",
     "http://line-new.ru",
-    "http://atel.su",
-    "http://atel.su",
     "http://intercom-technology.ru",
     "http://istranet.ru",
-    "http://atel.su",
     "http://zaoitt.ru",
     "http://teleru.net",
     "http://balabanovo.net",
     "http://citylink.pro",
     "http://metro-set.ru",
-    "http://astrakhan.mts.ru",
-    "http://astrakhan.mts.ru",
-    "http://barnaul.mts.ru",
-    "http://belgorod.mts.ru",
     "http://westcall.spb.ru",
     "http://evo73.ru",
     "http://exnet.ru",
@@ -2629,7 +2397,6 @@ raw_urls = [
     "http://kovrovinter.net",
     "http://corbina.ru",
     "http://spb.seven-sky.net",
-   
     "http://vezde-online.ru",
     "http://khabarovsk.rtrs.ru",
     "http://gatchina.ru",
@@ -2646,7 +2413,6 @@ raw_urls = [
     "http://rubc.ugmk-telecom.ru",
     "http://slantk.ru",
     "http://service-aero.ru",
-    "http://atel.su",
     "http://mastertel.ru",
     "http://teslatel.ru",
     "http://teslatel.ru",
@@ -2750,14 +2516,12 @@ raw_urls = [
     "http://citylink.pro",
     "http://citylink.pro",
     "http://citylink.pro",
-    
     "http://2kom.ru",
     "http://itce.ru",
     "http://virginconnect.ru",
     "http://cifra1.ru",
     "http://mosoblast.rt.ru",
     "http://starlink.ru",
-    
     "http://granline.net",
     "http://mordovia.mts.ru",
     "http://sakha.mts.ru",
@@ -2795,44 +2559,6 @@ raw_urls = [
     "http://bitrace.ru",
     "http://msk.domru.ru",
     "http://msk.domru.ru",
-    "http://kuban.mts.ru",
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    "http://kamchatka.tele2.ru",
-    "http://kamchatka.tele2.ru",
-    "http://sakhalin.tele2.ru",
-    "http://sakhalin.tele2.ru",
     "http://luckycom.ru",
     "http://interzet.dom.ru",
     "http://regiontelekom.ru",
@@ -2844,70 +2570,6 @@ raw_urls = [
     "http://ppcom.ru",
     "http://sprint4g.ru",
     "http://realweb.ua",
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     "http://planar.biz",
     "http://telenet.tomsk.ru",
     "http://aviks.net",
@@ -2946,7 +2608,6 @@ raw_urls = [
     "http://baltline.ru",
     "http://dom-control.ru",
     "http://ultra5.ru",
-    "http://msk.tele2.ru",
     "http://vyborg.net",
     "http://luglink.net",
     "http://spb.izet.ru",
@@ -2967,20 +2628,11 @@ raw_urls = [
     "http://vinku.ru",
     "http://domilan.ru",
     "http://sevstar.net",
-    
     "http://tericom.su",
     "http://sat-internet.tv",
-    "http://alania.mts.ru",
     "http://zagorodtelecom.ru",
-    "http://kuban.mts.ru",
     "http://krd.domru.ru",
-    
-    "http://krasnodar.beeline.ru",
     "http://kuban.mts.ru",
-    "http://krasnodar.megafon.ru",
-    
-    "http://krasnodar.tele2.ru",
-    "http://obltel.net",
     "http://obltel.net",
     "http://betatelecom.ru",
     "http://omsk.ck-ceti.ru",
@@ -3022,7 +2674,7 @@ raw_urls = [
     "http://stts.org.ua",
     "http://t--c.ru",
     "http://ots-net.ru",
-    "http://tele2.ru",
+   
     "http://intersat.ru",
     "http://altegrosky.ru",
     "http://zextel.ru",
@@ -3052,13 +2704,7 @@ raw_urls = [
     "http://vols-61.ru",
     "http://sp-tv.ru",
     "http://kazan.rt.ru",
-    "http://freshtel.ru",
-    "http://freshtel.ru",
-    "http://freshtel.ru",
-    "http://freshtel.ru",
-    "http://freshtel.ru",
     "http://vyatkatelecom.ru",
-    
     "http://mtci.ru",
     "http://mtci.ru",
     "http://smart-com.ru",
@@ -3073,7 +2719,6 @@ raw_urls = [
     "http://vlg.netbynet.ru",
     "http://vologda.netbynet.ru",
     "http://eburg.netbynet.ru",
-    
     "http://kaliningrad.netbynet.ru",
     "http://netbynet.ru",
     "http://murmansk.netbynet.ru",
@@ -3093,12 +2738,10 @@ raw_urls = [
     "http://76internet.info",
     "http://wetel.ru",
     "http://wetel.ru",
-    
     "http://optele.ru",
     "http://dom.mtt.ru",
     "http://azinet.ru",
     "http://telempire.ru",
-    
     "http://rostov.b2b.domru.ru",
     "http://tiksi.info",
     "http://rndavia.ru",
@@ -3131,7 +2774,6 @@ raw_urls = [
     "http://viva.net.ru",
     "http://artecom.su",
     "http://m-sv.net",
-    
     "http://isp31.ru",
     "http://urface.ru",
     "http://etelcom.ru",
@@ -3181,7 +2823,6 @@ raw_urls = [
     "http://sibetc.ru",
     "http://dialog-it.ru",
     "http://etk.ru",
-    "http://radugainternet.ru",
     "http://altay.megafon.ru",
     "http://barnaul.avantel.ru",
     "http://barnaul.mts.ru",
@@ -3202,7 +2843,6 @@ raw_urls = [
     "http://mksdv.ru",
     "http://satcom-tv.ru",
     "http://amur.rt.ru",
-    "http://radugainternet.ru",
     "http://amur.mts.ru",
     "http://amur.megafon.ru",
     "http://amurskaya-obl.beeline.ru",
@@ -3218,11 +2858,7 @@ raw_urls = [
     "http://megafon.ru",
     "http://arkhangelskaya-obl.beeline.ru",
     "http://businessbox.ru",
-    "http://effortel.ru",
     "http://ionitcom.ru",
-    "http://radugainternet.ru",
-    "http://arkhangelsk.mts.ru",
-    "http://arh.tele2.ru",
     "http://enforta.ru",
     "http://enforta.ru",
     "http://orange-business.com",
@@ -3239,9 +2875,6 @@ raw_urls = [
     "http://deltatelekom.ru",
     "http://astrakhan.mts.ru",
     "http://astrakhan.rt.ru",
-    "http://radugainternet.ru",
-    "http://astrakhan.megafon.ru",
-    
     "http://ptl.ru",
     "http://enforta.ru",
     "http://virginconnect.ru",
@@ -3249,7 +2882,6 @@ raw_urls = [
     "http://belgorod.mts.ru",
     "http://belgorod.domolink.ru",
     "http://startel.ru",
-   
     "http://ctline.ru",
     "http://elfcom.ru",
     "http://tz.ru",
@@ -3261,8 +2893,6 @@ raw_urls = [
     "http://rutvn.ru",
     "http://beltelecom.ru",
     "http://belgorod.rt.ru",
-    "http://radugainternet.ru",
-    "http://bel.megafon.ru",
     "http://in-linetelecom.ru",
     "http://belrts.ru",
     "http://nersi.ru",
@@ -3270,7 +2900,6 @@ raw_urls = [
     "http://sumsys.ru",
     "http://belgorod.zelenaya.net",
     "http://kiberlan.ru",
-    "http://freshtel.ru",
     "http://isp31.ru",
     "http://format-c.pro",
     "http://ptl.ru",
@@ -3288,9 +2917,7 @@ raw_urls = [
     "http://brn.megafon.ru",
     "http://enforta.ru",
     "http://bryansk.myttk.ru",
-    "http://radugainternet.ru",
     "http://bryansk.mts.ru",
-    "http://freshtel.ru",
     "http://tellenet.ru",
     "http://rms32.ru",
     "http://SectorTelecom.ru",
@@ -3316,11 +2943,10 @@ raw_urls = [
     "http://eridan.cc",
     "http://melenki.net.ru",
     "http://vladimir.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://vladimir.mts.ru",
     "http://vl.megafon.ru",
     "http://vladimirskaya-obl.beeline.ru",
-    
     "http://skyss.ru",
     "http://izhevsk.tele2.ru",
     "http://skylink.ru",
@@ -3337,14 +2963,14 @@ raw_urls = [
     "http://businessbox.ru",
     "http://baza35.net",
     "http://tehnosoft.ru",
-    "http://effortel.ru",
+    
     "http://net35.ru",
     "http://infy.ru",
     "http://visp.ru",
     "http://mline35.net",
     "http://vologodskaya-obl.beeline.ru",
     "http://enforta.ru",
-    "http://radugainternet.ru",
+    
     "https://izet-telecom.ru/",
     "http://sltd.ru",
     "http://vologda.netbynet.ru",
@@ -3374,8 +3000,8 @@ raw_urls = [
     "http://puzzlebusiness.ru",
     "http://vism.ru",
     "http://voronezh.rt.ru",
-    "http://radugainternet.ru",
-    "http://freshtel.ru",
+    
+    
     "http://vrn.megafon.ru",
     "http://ptl.ru",
     "http://ttlt.ru",
@@ -3385,7 +3011,7 @@ raw_urls = [
     
     "http://disly.dsv.ru",
     "http://enforta.ru",
-    "http://radugainternet.ru",
+    
     "http://zaoipnet.ru",
     "http://evreyskaya-ao.beeline.ru",
     "http://eao.rt.ru",
@@ -3404,7 +3030,7 @@ raw_urls = [
     "http://gfnet.ru",
     "http://s-komplekt.ru",
     "http://enforta.ru",
-    "http://radugainternet.ru",
+    
     "http://chita.megafon.ru",
     "http://zabaykalskiy-kr.beeline.ru",
     "http://wi-kom.net",
@@ -3423,9 +3049,9 @@ raw_urls = [
     "http://ivregion.com",
     "http://dsn.ru",
     "http://ivanovo.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://ivanovo.mts.ru",
-    "http://freshtel.ru",
+    
     "http://iv.megafon.ru",
     "http://sl.spacelink.ru",
     "http://sputnikplus.net",
@@ -3461,7 +3087,7 @@ raw_urls = [
     "http://irkutsk.domru.ru",
     "http://orionnet.ru",
     "http://irkutsk.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://irkutsk.megafon.ru",
     "http://homenet.logic-bratsk.ru",
     "http://teleos.ru",
@@ -3497,7 +3123,7 @@ raw_urls = [
     "http://gazinter.net",
     "http://tis-dialog.ru",
     "http://ekran39.ru",
-    "http://radugainternet.ru",
+    
     "http://kaliningrad.mts.ru",
     "http://satgate.net",
     "http://globus-telecom.com",
@@ -3514,7 +3140,7 @@ raw_urls = [
     "http://kaluga.rt.ru",
     "http://rinokom.ru",
     "http://enem-inet.ru",
-    "http://radugainternet.ru",
+    
     "http://klg.megafon.ru",
     
     "http://ego-net.ru",
@@ -3530,11 +3156,11 @@ raw_urls = [
     "http://helios-net.ru",
     "http://kamtv.ru",
     "http://kamchatka.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://kamchatka.megafon.ru",
     "http://kamchatskiy-kr.beeline.ru",
     "http://kemerovskaya-obl.beeline.ru",
-    "http://radugainternet.ru",
+    
     "http://narodinet.ru",
     "http://polenet.ru",
     "http://kemnet.ru",
@@ -3549,7 +3175,7 @@ raw_urls = [
     "http://kemerovo.wstream.ru",
     "http://ptl.ru",
     "http://byte-kuzbass.ru",
-    "http://myttk.ru",
+    
     "http://enforta.com",
     "http://wi-te.ru",
     "http://ksu42.ru",
@@ -3582,13 +3208,13 @@ raw_urls = [
     "http://kirov.mts.ru",
     "http://gisnet.ru",
     "http://kirov.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://kirov.megafon.ru",
     "http://kirovskaya-obl.beeline.ru",
     "http://eao.mts.ru",
     "http://intcom.info",
     "http://spb.ertelecom.ru",
-    "http://atel.su",
+    
     "http://pwrnet.ru",
     "http://vyatkatelecom.ru",
     "http://ptl.ru",
@@ -3596,13 +3222,13 @@ raw_urls = [
     "http://kmtn.ru",
     "http://kostromskaya-obl.beeline.ru",
     "http://support.kosnet.ru",
-    "http://radugainternet.ru",
+    
     "http://interkonekt.ru",
     "http://kostroma.rt.ru",
     "http://medialan.ru",
     "http://krasnodar.tele2.ru",
     "http://kostroma.mts.ru",
-    "http://freshtel.ru",
+    
     "http://kstr.megafon.ru",
     
     "http://aksioma-kos.ru",
@@ -3628,13 +3254,13 @@ raw_urls = [
     "http://aaanet.ru",
     "http://jnn.ru",
     "http://virginconnect.ru",
-    "http://effortel.ru",
+    
     "http://cubitel.ru",
     "http://intex-ltd.ru",
     "http://hitel.ru",
     "http://krasnodar.rt.ru",
    
-    "http://radugainternet.ru",
+    
     "http://krasnodar.megafon.ru",
     "http://city-telekom.ru",
     "http://belora.ru",
@@ -3644,7 +3270,7 @@ raw_urls = [
     "http://ирбистелеком.рф",
     "http://mirtelecom.pro",
     "http://realcomm.ru",
-    "http://atel.su",
+    
     "http://kuban.mts.ru",
     "http://telecomsky.ru",
     "http://sprint4g.ru",
@@ -3700,7 +3326,7 @@ raw_urls = [
     "http://orange-business.com",
     "http://netronik.ru",
     "http://krasnoyarsk.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://norilsk.mts.ru",
     "http://kras.megafon.ru",
     "http://piramida.sibmf.ru",
@@ -3727,7 +3353,7 @@ raw_urls = [
     "http://b2b.ttk.ru",
     "http://telenet.ru",
     "http://acmetelecom.ru",
-    "http://kurgan.mts.ru",
+    
     "http://orbitel.ru",
     "http://kurgan.megafon.ru",
     "http://kss45.ru",
@@ -3737,11 +3363,11 @@ raw_urls = [
     "http://vologda.tele2.ru",
     "http://kurgan.rt.ru",
     "http://kurgan.domru.ru",
-    "http://radugainternet.ru",
+    
     "http://kurgan.tv",
     "http://ptl.ru",
     "http://enforta.ru",
-    "http://kursk.mts.ru",
+    
     "http://kurskaya-obl.beeline.ru",
     "http://kursk.domolink.ru",
     "http://kursk.netbynet.ru",
@@ -3754,7 +3380,7 @@ raw_urls = [
     "http://sovtest.net",
     "http://kursk.rt.ru",
     "http://kursk.domru.ru",
-    "http://radugainternet.ru",
+    
     "http://ks.megafon.ru",
     "http://kompa.ru",
     "http://s-inform.net",
@@ -3779,9 +3405,9 @@ raw_urls = [
     "http://i-like.pro",
     "http://svzt.ru",
     "http://lipetsk.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://lipetsk.mts.ru",
-    "http://freshtel.ru",
+    
     "http://lc.megafon.ru",
     "http://lipetsktelecom.ru",
     "http://newteletech.ru",
@@ -3794,7 +3420,7 @@ raw_urls = [
     "http://magadan.rt.ru",
     "http://magadan.mts.ru",
     "http://magadan.megafon.ru",
-    "http://radugainternet.ru",
+    
     "http://enforta.ru",
     "http://skylink.ru",
     "http://orange-business.com",
@@ -3807,7 +3433,7 @@ raw_urls = [
     "http://apanet.ru",
     "http://murmanskaya-obl.beeline.ru",
     "http://murmansk.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://murmansk.mts.ru",
     "http://murmansk.netbynet.ru",
     "http://nov.peterstar.ru",
@@ -3816,10 +3442,10 @@ raw_urls = [
     "http://mxc.ru",
     "http://avangard-dsl.ru",
     "http://novgorod.aliance-pro.ru",
-    "http://effortel.ru",
+    
     "http://novline.ru",
     "http://natm.ru",
-    "http://radugainternet.ru",
+    
     "http://novgorodskaya-obl.beeline.ru",
     "http://netwi.ru",
     "http://novgorod.netbynet.ru",
@@ -3837,7 +3463,7 @@ raw_urls = [
     "http://telecom.ku.ru",
     "http://ms56.su",
     "http://orenburg.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://orenburg.mts.ru",
     "http://orenburg.megafon.ru",
     "http://orel.mts.ru",
@@ -3857,15 +3483,15 @@ raw_urls = [
     "http://orn.ru",
     "http://ortes.ru",
     "http://orel.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://orl.megafon.ru",
     "http://tellenet.ru",
-    "http://freshtel.ru",
+    
     "http://ptl.ru",
     "http://enforta.ru",
     "http://penza.citydom.ru",
     "http://penza.rt.ru",
-    "http://arctel.ru",
+    
     "http://penza.ttk.ru",
     "http://rclink.ru",
     "http://net.pnz.ru",
@@ -3875,7 +3501,7 @@ raw_urls = [
     "http://penza.rt.ru",
     "http://penzartc.ru",
     "http://penzanet.ru",
-    "http://radugainternet.ru",
+    
     "http://penza.megafon.ru",
     
     "http://penza-on-line.tk",
@@ -3900,7 +3526,7 @@ raw_urls = [
     "http://orange-business.com",
     "http://perm.domru.ru",
     "http://perm.megafon.ru",
-    "http://radugainternet.ru",
+    
     "http://agtel.org",
     "http://internet-urala.ru",
     "http://inetvl.ru",
@@ -3912,13 +3538,13 @@ raw_urls = [
     "http://ttkdv.ru",
     "http://enforta.com",
     "http://vtc.ru",
-    "http://tele2.ru",
+   
     "http://ptkom.ru",
     "http://continental-group.ru",
     "http://vntc.ru",
     "http://itl.ru",
     "http://vvo.ru",
-    "http://radugainternet.ru",
+    
     "http://primorye.rt.ru",
     "http://oceantelecom.ru",
     "http://primorye.mts.ru",
@@ -3932,7 +3558,7 @@ raw_urls = [
     "http://pskov.peterstar.ru",
     "http://enforta.ru",
     ,
-    "http://tele2.ru",
+   
     "http://pskov.avangard-dsl.ru",
     "http://pskov.aliance-pro.ru",
     "http://pskovline.ru",
@@ -3940,7 +3566,7 @@ raw_urls = [
     "http://tvmpskov.ru",
     "http://teleseti.com",
     "http://datapskov.ru",
-    "http://radugainternet.ru",
+    
     "http://pskov.mts.ru",
     
     "http://ituslugi.pro",
@@ -3953,13 +3579,13 @@ raw_urls = [
     "http://adygtelecom.com",
     "http://maykop.rt.ru",
     "http://",
-    "http://radugainternet.ru",
+    
     "http://murmansk.tele2.ru",
     "http://onrela.ru",
     "http://altay.wstream.ru",
     "http://ongnet.ru",
     
-    "http://radugainternet.ru",
+    
     "http://enforta.com",
     "http://buryatiya.rt.ru",
     "http://ulan.wstream.ru",
@@ -3970,7 +3596,7 @@ raw_urls = [
     "http://realcomnet.ru",
     "http://net03.ru",
     "http://u2net.ru",
-    "http://radugainternet.ru",
+    
     "http://pretel.ru",
     "http://bicnet.ru",
     "http://buryatia.megafon.ru",
@@ -3987,7 +3613,7 @@ raw_urls = [
     "http://subnet05.ru",
     "http://mahachkala.rt.ru",
     "http://dagestan.megafon.ru",
-    "http://radugainternet.ru",
+    
     "http://dagestan.mts.ru",
     
     "http://mayaknet.ru",
@@ -3996,7 +3622,7 @@ raw_urls = [
     "http://ingushetia.megafon.ru",
     "http://murmansk.tele2.ru",
     "http://ingushetiya.beeline.ru",
-    "http://radugainternet.ru",
+    
     "http://terralink.pro",
     "http://zaoitt.ru",
     "http://naltel.zelenaya.net",
@@ -4006,7 +3632,7 @@ raw_urls = [
     "http://skynetru.ru",
     "http://nalchik.rt.ru",
     "http://kbr.megafon.ru",
-    "http://radugainternet.ru",
+    
     "http://kbr.mts.ru",
     "http://kabardino-balkariya.beeline.ru",
     "http://enforta.com",
@@ -4014,7 +3640,7 @@ raw_urls = [
     "http://kalmykia.megafon.ru",
     "http://elista.mts.ru",
     
-    "http://radugainternet.ru",
+    
     "http://infotecset.ru",
     "http://novgorod.tele2.ru",
     "http://novgorod.tele2.ru",
@@ -4022,7 +3648,7 @@ raw_urls = [
     "http://cherkessk.south.rt.ru",
     "http://nester.ru",
     "http://cherkessk.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://kchr.mts.ru",
     "http://kchr.megafon.ru",
     "http://karachaevo-cherkesiya.beeline.ru",
@@ -4032,7 +3658,7 @@ raw_urls = [
     "http://karelia.nw.rt.ru",
     "http://karelia.rt.ru",
     "http://mtx-karelia.ru",
-    "http://radugainternet.ru",
+    
     "http://karelia.mts.ru",
     
    
@@ -4047,7 +3673,7 @@ raw_urls = [
     "http://metro.pokomi.ru",
     "http://utech.ru",
     "http://parmatel.ru",
-    "http://radugainternet.ru",
+    
     "http://komi.megafon.ru",
     
     "http://crimea.ukrtelecom.ua",
@@ -4087,7 +3713,7 @@ raw_urls = [
     "http://yola.domru.ru",
     "http://viptec.ru",
     "http://maryel.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://mari-el.mts.ru",
     "http://mariel.megafon.ru",
     
@@ -4102,12 +3728,12 @@ raw_urls = [
     "http://mordovia.mts.ru",
     "http://mordovia.megafon.ru",
     
-    "http://radugainternet.ru",
+    
     "http://helios-net.ru",
     "http://helios-nw.ru",
     "http://sakha.rt.ru",
     
-    "http://radugainternet.ru",
+    
     "http://sakha.mts.ru",
     "http://sakha.megafon.ru",
     "http://tlkn.ru",
@@ -4118,14 +3744,14 @@ raw_urls = [
     "http://diselcom.ru",
     "http://vladikavkaz.beeline.ru",
     "http://zaoipnet.ru",
-    "http://radugainternet.ru",
+    
     "http://skylink.ru",
     "http://vladikavkaz.rt.ru",
     "http://altegro.ru",
     "http://alania.megafon.ru",
     "http://tuva.ru",
     "http://tuva.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://pskov.tele2.ru",
     "http://karelia.tele2.ru",
     "http://tyva.mts.ru",
@@ -4145,14 +3771,13 @@ raw_urls = [
     "http://udm.mts.ru",
     "http://mark.ru",
     "http://izhnet.ru",
-    "http://votkinsk.domru.ru",
     "http://site.logoslink.ru",
     "http://tele-set.ru",
     "http://karelia.tele2.ru",
     "http://j-volga.ru",
     "http://skylink.ru",
     "http://orange-business.com",
-    "http://radugainternet.ru",
+    
     "http://udm.megafon.ru",
     
     "http://udmurtiya.rt.ru",
@@ -4167,7 +3792,7 @@ raw_urls = [
     "http://khakassia.sibir.rt.ru",
     "http://tehset.ru",
     "http://hakasiya.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://khakasia.mts.ru",
     "http://hakas.megafon.ru",
     "http://kristel.ru",
@@ -4175,14 +3800,12 @@ raw_urls = [
     "http://electronm.org",
     "http://enisey.net",
     "http://zaoipnet.ru",
-    "http://radugainternet.ru",
+    
     "http://citylan.grozn.ru",
     "http://chss.ru",
     "http://vainahtelecom.ru",
     "http://gumsnet.ru",
     "http://wainet.ru",
-    "http://chechnya.mts.ru",
-    "http://chechnya.megafon.ru",
     "http://chr.vt.ru",
     "http://etherway.ru",
     "http://enforta.com",
@@ -4198,7 +3821,7 @@ raw_urls = [
     "http://cheb.domru.ru",
     "http://chuvashiya.rt.ru",
     "http://chuvashia.megafon.ru",
-    "http://radugainternet.ru",
+    
     "http://spark-com.ru",
     "http://enforta.com",
     "http://ptl.ru",
@@ -4218,13 +3841,13 @@ raw_urls = [
     "http://ryazantelecom.ru",
     "http://greenline.bz",
     "http://ryazan-tv.ru",
-    "http://radugainternet.ru",
+    
     "http://ryazan.beeline.ru",
     "http://областьтелеком.рф",
     "http://silon.su",
     "http://on-telecom.ru",
     "http://saratov.ertelecom.ru",
-    "http://beeline.ru",
+    
     "http://volga.ttk.ru",
     "http://enforta.ru",
     "http://altura.ru",
@@ -4237,13 +3860,13 @@ raw_urls = [
     "http://globus-telecom.com",
     "http://skylink.ru",
     "http://alternativa.su",
-    "http://arctel.ru",
+    
     "http://saratov.citydom.ru",
     "http://orange-business.com",
     "http://prtcom.ru",
     "http://saratov.rt.ru",
     "http://megafon.ru",
-    "http://radugainternet.ru",
+    
     "http://airbig.ru",
     "http://bt.balcer.ru",
     "http://sp-tv.ru",
@@ -4253,9 +3876,9 @@ raw_urls = [
     "http://vtc.ru",
     "http://ekt.tele2.ru",
     "http://svtc.ru",
-    "http://beeline.ru",
+    
     "http://sakhalin.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://sakh.mts.ru",
     "http://skh.megafon.ru",
     "http://st65.ru",
@@ -4269,7 +3892,7 @@ raw_urls = [
     "http://smoltelecom.ru",
     "http://citycomm.ru",
    
-    "http://radugainternet.ru",
+    
     "http://sml.megafon.ru",
     "http://tellenet.ru",
     "http://perm.tele2.ru",
@@ -4290,15 +3913,11 @@ raw_urls = [
     "http://gorodtv.net",
     "http://tz.ru",
     "http://orange-business.com",
-    "http://beeline.ru",
+    
     "http://cogocom.ru",
     "http://soesta.ru",
     "http://telko.ru",
     "http://stavropol.rt.ru",
-    "http://vladimir.tele2.ru",
-    "http://radugainternet.ru",
-    "http://kislovodsk.mts.ru",
-    "http://stavropol.megafon.ru",
     "http://kmv.ru",
     "http://stavropol.netbynet.ru",
     "http://nexttell-ug.ru",
@@ -4311,11 +3930,7 @@ raw_urls = [
     "http://telekom.prokma.ru",
     "http://tnms.ru",
     "http://tambov.rt.ru",
-    "http://radugainternet.ru",
-    "http://tmb.megafon.ru",
     "http://city-wlan.ru",
-    "http://tyumen.tele2.ru",
-    "http://kaluga.tele2.ru",
     "http://internet.su",
     "http://tambov.ru",
     "http://ptl.ru",
@@ -4323,7 +3938,6 @@ raw_urls = [
     "http://skylink.ru",
     "http://orange-business.com",
     "http://virginconnect.ru",
-    "http://beeline.ru",
     "http://tver.mts.ru",
     "http://tver.domolink.ru",
     "http://tver.sumtel.ru",
@@ -4336,10 +3950,6 @@ raw_urls = [
     "http://an-net.ru",
     "http://tver.rt.ru",
     "http://cifra1.ru",
-    "http://tyumen.tele2.ru",
-    "http://tver.domru.ru",
-    "http://radugainternet.ru",
-    "http://tver.megafon.ru",
     "http://i-network.ru",
     "http://tver.netbynet.ru",
     "http://fastlnk.ru",
@@ -4351,8 +3961,6 @@ raw_urls = [
     "http://enforta.ru",
     "http://tomsk.citydom.ru",
     "http://tomsk.wstream.ru",
-    "http://myttk.ru",
-    "http://fast70net.ru",
     "http://lazonet.tomsk.ru",
     "http://modelnet.tomsk.ru",
     "http://tomgate.net",
@@ -4364,9 +3972,6 @@ raw_urls = [
     "http://tomcity.ru",
     "http://fibrenet.ru",
     "http://tomica.ru",
-    "http://tomsk.mts.ru",
-    "http://radugainternet.ru",
-    "http://telenet.tomsk.ru",
     "http://aviks.net",
     "http://mymtk.ru",
     "http://tomsk.rt.ru",
@@ -4374,7 +3979,6 @@ raw_urls = [
     "http://enforta.ru",
     "http://tula.citydom.ru",
     "http://orange-business.com",
-    
     "http://ryazan.domolink.ru",
     "http://kurgan.tele2.ru",
     "http://kurgan.tele2.ru",
@@ -4384,15 +3988,9 @@ raw_urls = [
     "http://sunlink.ru",
     "http://radionet-t.ru",
     "http://nkoort.ru",
-   
     "http://tula.rt.ru",
     "http://sky-t.ru",
     "http://naukanet.ru",
-    "http://radugainternet.ru",
-    "http://freshtel.ru",
-    "http://tula.megafon.ru",
-    "http://tula.mts.ru",
-    
     "http://altegrosky.ru",
     "http://yasnogorsk.su",
     "http://ptl.ru",
@@ -4402,8 +4000,6 @@ raw_urls = [
     "http://chelyabinsk.tele2.ru",
     "http://chelyabinsk.tele2.ru",
     "http://altegrosky.ru",
-    
-   
     "http://a-c-c.org",
     "https://abv-tv.com/tyumen/",
     "http://abv-tv.com",
@@ -4429,7 +4025,7 @@ raw_urls = [
     "http://inet72.ru",
     "http://i-jetcom.ru",
     "http://tumen.rt.ru",
-    "http://radugainternet.ru",
+    
     "http://tyumen.megafon.ru",
     "http://metro-set.ru",
     "http://tmn.b2b.domru.ru",
@@ -4445,7 +4041,7 @@ raw_urls = [
     "http://ul.ru",
     "http://uln.mts.ru",
     "http://sputnik.sg",
-    "http://radugainternet.ru",
+
     "http://iptk.ru",
     "http://metromax.ru",
     "http://ulyanovsk.beeline.ru",
@@ -4459,7 +4055,7 @@ raw_urls = [
     "http://enforta.ru",
     "http://skylink.ru",
     "http://orange-business.com",
-    "http://beeline.ru",
+    
     "http://dataline.ru",
     "http://disly.dsv.ru",
     "http://redcom.ru",
@@ -4473,32 +4069,20 @@ raw_urls = [
     "http://tiss.tv",
     "http://inet-plus.ru",
     "http://khabarovsk.rt.ru",
-    "http://radugainternet.ru",
-    "http://komsomolsk.mts.ru",
-    "http://khb.megafon.ru",
-    
     "http://td-net.ru",
     "http://sat-dv.ru",
-    "http://atel.su",
     "http://khabarovsk.rtrs.ru",
     "http://das-telecom.ru",
     "http://piton-asc.ru",
-    "http://omsk.tele2.ru",
     "http://new.chukotnet.ru",
-    "http://chukotka.mts.ru",
-    "http://chukotka.megafon.ru",
-    
-    "http://radugainternet.ru",
     "http://altegrosky.ru",
     "http://yar.ertelecom.ru",
     "http://enforta.ru",
-    
     "http://ptl.ru",
     "http://virginconnect.ru",
     "http://yar.peterhome.ru",
     "http://yar.citydom.ru",
     "http://yar.lancktelecom.ru",
-   
     "http://yarvolna.net",
     "http://netis.ru",
     "http://zavolga.net",
@@ -4511,10 +4095,8 @@ raw_urls = [
     "http://livecomm.ru",
     "http://uglich-net.ru",
     "http://yaroslavl.rt.ru",
-    "http://radugainternet.ru",
     "http://interzet.ru",
     "http://lan-systems.net",
-    "http://freshtel.ru",
     "http://76internet.info",
     "http://telekonika.ru",
     "http://inko-net.ru",
@@ -4570,32 +4152,9 @@ raw_urls = [
     "http://internet.mcn.ru",
     "http://samarasvyaz.ru",
     "http://aircom45.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
     "http://goodpeople.gp",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
     "http://telsispb.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://primorye.mts.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
-    "http://altegronet.ru",
+"http://altegronet.ru",
     "http://telemir68.ru",
     "http://meleuz.org",
     "http://telecombg.ru",
@@ -4605,31 +4164,22 @@ raw_urls = [
     "http://real.su",
     "http://klenovo.net",
     "http://g-service.ru",
-   
     "http://dzinet.ru",
     "http://strizh.net",
-    "http://spb.megafon.ru",
     "http://mihtv.ru",
     "http://videoline.ru",
-    
-    
     "http://yota-system.ru",
     "http://netcom70.ru",
     "http://ping2b.ru",
     "http://viltel.ru",
-   
     "http://teleset-ufa.ru",
     "http://ufa.domru.ru",
     "http://ufa.zelenaya.net",
     "http://tatarstan.mts.ru",
     "http://volgograd.mts.ru",
-   
     "http://nnov.sumtel.ru",
     "http://mosnet.ru",
     "http://2090000.ru",
-    "http://omsk.mts.ru",
-    "http://omsk.domru.ru",
-    "http://rostov.domru.ru",
     "http://rostov.sumtel.ru",
     "http://mb-samara.ru",
     "http://samara.domru.ru",
@@ -4865,7 +4415,6 @@ raw_urls = [
     "http://sumsys.ru",
     "http://hi40.info",
     "http://provodov-net.ru",
-    "http://provodov-net.ru",
     "http://maintelecom.ru",
     "http://tvk.tv",
     "http://lubi.su",
@@ -4904,7 +4453,6 @@ raw_urls = [
     "http://elista.zelenaya.net",
     "http://itvk-sim.ru",
     "http://kaluga.tele2.ru",
-   
     "http://bryansk.ttk.ru",
     "http://bashkortostan.mts.ru",
     "http://signaltv.net",
@@ -4947,7 +4495,6 @@ raw_urls = [
     "http://new-line.net",
     "http://yar.megafon.ru",
     "http://insit.ru",
-    
     "http://intercom.pro",
     "http://altegrosky.ru",
     "http://ricentr-isp.ru",
@@ -4956,16 +4503,16 @@ raw_urls = [
     "http://habarovsk.gepard-telecom.ru",
     "http://arh.gepard-telecom.ru",
     "http://kaluga.gepard-telecom.ru",
-    "http://gepard-telecom.ru",
+   
     "http://kursk.gepard-telecom.ru",
-    "http://gepard-telecom.ru",
+   
     "http://bryansk.gepard-telecom.ru",
-    "http://gepard-telecom.ru",
+   
     "http://primorye.gepard-telecom.ru",
-    "http://gepard-telecom.ru",
-    "http://gepard-telecom.ru",
+   
+   
     "http://krasnodar.gepard-telecom.ru",
-    "http://buryatia.tele2.ru",
+    
     "http://elista.wifire.ru",
     "http://stavropol.wifire.ru",
     "http://vologda.wifire.ru",
@@ -4989,7 +4536,6 @@ raw_urls = [
     "https://тс.рф/",
     "http://spb.gepard-telecom.ru",
     "http://tscrimea.ru",
-    
     "http://тв-маяк.рф",
     "http://veelan.ru",
     "http://avk-connect.ru",
@@ -5007,7 +4553,6 @@ raw_urls = [
     "http://fthome.ru",
     "http://rosconnect.ru",
 "http://altclick.ru",
-    
     "http://telixnet.ru",
     "http://оптика-в-дом.рф",
     "http://semantic.su",
@@ -5015,244 +4560,16 @@ raw_urls = [
     "http://vokrugonline.ru",
     "http://gdnet.ru",
     "http://gigacoms.ru",
-    "http://buryatia.tele2.ru",
-    "http://kuzbass.tele2.ru",
-    "http://kuzbass.tele2.ru",
-"http://barnaul.tele2.ru",
-"http://krasnoyarsk.tele2.ru",
-"http://khakasia.tele2.ru",
-    "http://tver.tele2.ru",
-    
-   
-   
-    "http://alania.mts.ru",
     "http://skylink.ru",
-"http://belgorod.tele2.ru",
-"http://bryansk.tele2.ru",
-    
-    
-    "http://vladimir.tele2.ru",
-    "http://voronezh.tele2.ru",
-    "http://voronezh.tele2.ru",
     "http://sistservice.ru",
     "http://saransk.gepard-telecom.ru",
-    "http://kursk.tele2.ru",
-    "http://kursk.tele2.ru",
-    "http://lipetsk.tele2.ru",
-    "http://lipetsk.tele2.ru",
-    "http://orel.tele2.ru",
-    "http://orel.tele2.ru",
-    "http://ryazan.tele2.ru",
-    "http://ryazan.tele2.ru",
-    "http://smolensk.tele2.ru",
-    "http://smolensk.tele2.ru",
-    "http://tambov.tele2.ru",
-    "http://tula.tele2.ru",
-    "http://tula.tele2.ru",
-    "http://yar.tele2.ru",
-    "http://yar.tele2.ru",
-    "http://kirov.tele2.ru",
-    "http://kirov.tele2.ru",
-    "http://nnov.tele2.ru",
-    "http://nnov.tele2.ru",
-    "http://myttk.ru",
+    
     "http://g2.ru",
     "http://aviel.ru",
-    "http://ivanovo.tele2.ru",
-    "http://kostroma.tele2.ru",
-    "http://kostroma.tele2.ru",
-     "http://voronezh.tele2.ru",
-    "http://kursk.tele2.ru",
-    "http://kursk.tele2.ru",
-    "http://lipetsk.tele2.ru",
-    "http://lipetsk.tele2.ru",
-    "http://orel.tele2.ru",
-    "http://orel.tele2.ru",
-    "http://ryazan.tele2.ru",
-    "http://smolensk.tele2.ru",
-    "http://smolensk.tele2.ru",
-    "http://tambov.tele2.ru",
-    "http://tula.tele2.ru",
-    "http://tula.tele2.ru",
-    "http://yar.tele2.ru",
-    "http://yar.tele2.ru",
-    "http://kirov.tele2.ru",
-    "http://kirov.tele2.ru",
-    "http://nnov.tele2.ru",
-    "http://nnov.tele2.ru",
-    "http://ivanovo.tele2.ru",
-    "http://vladimir.mts.ru",
-    "http://kostroma.tele2.ru",
-    "http://kostroma.tele2.ru",
-    "http://nizhniy-novgorod.beeline.ru",
-    "http://samara.beeline.ru",
-    
-    
-    "http://rostov-na-donu.beeline.ru",
     
     "http://gettelecom.ru",
-    "http://asarta.ru",
-
-    "http://perm.beeline.ru",
-    "http://voronezh.beeline.ru",
-    "http://beeline.ru",
-    "http://krasnodar.beeline.ru",
-    "http://yaroslavl.beeline.ru",
-    "http://ulyanovsk.beeline.ru",
-    "http://vladivostok.beeline.ru",
-    "http://lipetsk.beeline.ru",
-
-    "http://ivanovo.beeline.ru",
     
-    
-    
-    "http://mobile.beeline.ru",
-    "http://vladikavkaz.beeline.ru",
-    "http://gorno-altaysk.beeline.ru",
-    "http://nche.beeline.ru",
-
-    "http://beeline.ru",
-    
-    "http://nnov.mts.ru",
-    "http://samara.mts.ru",
-    "http://omsk.mts.ru",
-    "http://chel.mts.ru",
-    "http://volgograd.mts.ru",
-    "http://perm.mts.ru",
-    "http://rnd.mts.ru",
-    "http://saratov.mts.ru",
-    "http://uln.mts.ru",
-    "http://udm.mts.ru",
-    "http://vologda.mts.ru",
-    "http://voronezh.mts.ru",
-    "http://kaluga.mts.ru",
-    "http://kursk.mts.ru",
-    "http://orel.mts.ru",
-    "http://smolensk.mts.ru",
-    "http://yaroslavl.mts.ru",
-    "http://belgorod.mts.ru",
-    "http://kuban.mts.ru",
-    "http://astrakhan.mts.ru",
-    "http://tver.mts.ru",
-    "http://kirov.mts.ru",
-    "http://kemerovo.mts.ru",
-    "http://tyumen.mts.ru",
-    "http://kurgan.mts.ru",
-    "http://chel.mts.ru",
-    "http://rnd.mts.ru",
-    "http://tambov.mts.ru",
-    "http://chita.mts.ru",
-    "http://mts.ru",
-    "http://nnov.mts.ru",
-    "http://kamchatka.mts.ru",
-    "http://nsk.mts.ru",
-    "http://primorye.mts.ru",
-    "http://irkutsk.mts.ru",
-    "http://samara.mts.ru",
-    "http://dagestan.mts.ru",
-    "http://amur.mts.ru",
-    "http://arkhangelsk.mts.ru",
-    "http://dom.mts.ru",
-    "http://bashkortostan.mts.ru",
-    "http://bryansk.mts.ru",
-    "http://buryatia.mts.ru",
-    "http://vladimir.mts.ru",
-    "http://eao.mts.ru",
-    "http://ivanovo.mts.ru",
-    "http://magas.mts.ru",
-    "http://kbr.mts.ru",
-    "http://kaliningrad.mts.ru",
-    "http://elista.mts.ru",
-    "http://kchr.mts.ru",
-    "http://karelia.mts.ru",
-    "http://kostroma.mts.ru",
-    "http://kras.mts.ru",
-    "http://lipetsk.mts.ru",
-    "http://magadan.mts.ru",
-    "http://mari-el.mts.ru",
-    "http://mordovia.mts.ru",
-    "http://murmansk.mts.ru",
-    "http://pskov.mts.ru",
-    "http://sakh.mts.ru",
-    "http://orenburg.mts.ru",
-    "http://sakha.mts.ru",
-    "http://stavropol.mts.ru",
-    "http://tomsk.mts.ru",
-    "http://tyva.mts.ru",
-    "http://khv.mts.ru",
-    "http://khakasia.mts.ru",
-    "http://chechnya.mts.ru",
-    "http://chukotka.mts.ru",
-    "http://tula.mts.ru",
-    "http://barnaul.mts.ru",
-    "http://kuban.mts.ru",
-    "http://kuban.mts.ru",
-    "http://tatarstan.mts.ru",
-    "http://barnaul.mts.ru",
-    "http://amur.mts.ru",
-    "http://arkhangelsk.mts.ru",
-    "http://astrakhan.mts.ru",
-    "http://belgorod.mts.ru",
-    "http://bryansk.mts.ru",
-    "http://vladimir.mts.ru",
-    "http://vologda.mts.ru",
-    "http://voronezh.mts.ru",
-    "http://eao.mts.ru",
-    "http://chita.mts.ru",
-    "http://ivanovo.mts.ru",
-    "http://irkutsk.mts.ru",
-    "http://kaliningrad.mts.ru",
-    "http://kaluga.mts.ru",
-    "http://kamchatka.mts.ru",
-    "http://kemerovo.mts.ru",
-    "http://kirov.mts.ru",
-    "http://kostroma.mts.ru",
-    "http://norilsk.mts.ru",
-    "http://kurgan.mts.ru",
-    "http://kursk.mts.ru",
-    "http://lipetsk.mts.ru",
-    "http://magadan.mts.ru",
-    "http://murmansk.mts.ru",
-    "http://orenburg.mts.ru",
-    "http://orel.mts.ru",
-    "http://perm.dom.mts.ru",
-    "http://primorye.mts.ru",
-    "http://pskov.mts.ru",
-    "http://buryatia.mts.ru",
-    "http://dagestan.mts.ru",
-    "http://magas.mts.ru",
-    "http://kbr.mts.ru",
-    "http://elista.mts.ru",
-    "http://kchr.mts.ru",
-    "http://karelia.mts.ru",
-    "http://mari-el.mts.ru",
-    "http://mordovia.mts.ru",
-    "http://sakha.mts.ru",
-    "http://tyva.mts.ru",
-    "http://udm.mts.ru",
-    "http://khakasia.mts.ru",
-    "http://chechnya.mts.ru",
-    "http://ryazan.mts.ru",
-    "http://saratov.mts.ru",
-    "http://sakh.mts.ru",
-    "http://http://smolensk.mts.ru",
-    "http://stavropol.mts.ru",
-    "http://tambov.mts.ru",
-    "http://tver.mts.ru",
-    "http://tomsk.mts.ru",
-    "http://tula.mts.ru",
-    "http://tyumen.mts.ru",
-    "http://uln.mts.ru",
-    "http://khv.mts.ru",
-    "http://chukotka.mts.ru",
-    "http://yaroslavl.mts.ru",
     "http://penza.mts.ru",
-    "http://tatarstan.mts.ru",
-    "http://volgograd.mts.ru",
-    "http://omsk.mts.ru",
-    "http://kuban.mts.ru",
-    "http://penza.mts.ru",
-    "http://bashkortostan.mts.ru",
     "http://kurgan.rt.ru",
     "http://nnovgorod.rt.ru",
     "http://samara.rt.ru",
@@ -5405,147 +4722,8 @@ raw_urls = [
     "http://kurgan.megafon.ru",
     "http://chel.megafon.ru",
     "http://brn.megafon.ru",
-    "http://karelia.megafon.ru",
     "http://pskov.peterstar.ru",
-    "http://http://megafon.ru",
-    "http://spb.megafon.ru",
-    
-    "http://buryatia.megafon.ru",
-    "http://dagestan.megafon.ru",
-    "http://kbr.megafon.ru",
-    "http://kalmykia.megafon.ru",
-    "http://moscow.megafon.ru",
-    "http://altay.megafon.ru",
-    "http://amur.megafon.ru",
     "http://astrakhan.megafon.ru",
-    "http://bel.megafon.ru",
-    "http://vl.megafon.ru",
-    "http://volgograd.megafon.ru",
-    "http://volgograd.megafon.ru",
-    "http://vrn.megafon.ru",
-    "http://eao.megafon.ru",
-    "http://chita.megafon.ru",
-    "http://iv.megafon.ru",
-    "http://irkutsk.megafon.ru",
-    "http://klg.megafon.ru",
-    "http://kamchatka.megafon.ru",
-    "http://kem.megafon.ru",
-    "http://kirov.megafon.ru",
-    "http://kstr.megafon.ru",
-    "http://krasnodar.megafon.ru",
-    "http://kras.megafon.ru",
-    "http://magadan.megafon.ru",
-    "http://nn.megafon.ru",
-    "http://nn.megafon.ru",
-    "http://nsk.megafon.ru",
-    "http://nsk.megafon.ru",
-    "http://omsk.megafon.ru",
-    "http://omsk.megafon.ru",
-    "http://orenburg.megafon.ru",
-    "http://orl.megafon.ru",
-    "http://penza.megafon.ru",
-    "http://perm.megafon.ru",
-    "http://prim.megafon.ru",
-    "http://bashkortostan.megafon.ru",
-    "http://bashkortostan.megafon.ru",
-    "http://ingushetia.megafon.ru",
-    "http://komi.megafon.ru",
-    "http://mariel.megafon.ru",
-    "http://mordovia.megafon.ru",
-    "http://sakha.megafon.ru",
-    "http://tatarstan.megafon.ru",
-    "http://tyva.megafon.ru",
-    "http://hakas.megafon.ru",
-    "http://rostov.megafon.ru",
-    "http://rostov.megafon.ru",
-    "http://samara.megafon.ru",
-    "http://samara.megafon.ru",
-    "http://skh.megafon.ru",
-    "http://svr.megafon.ru",
-    "http://svr.megafon.ru",
-    "http://sml.megafon.ru",
-    "http://stavropol.megafon.ru",
-    "http://tmb.megafon.ru",
-    "http://tver.megafon.ru",
-    "http://tula.megafon.ru",
-    "http://tyumen.megafon.ru",
-    "http://udm.megafon.ru",
-    "http://ulyanovsk.megafon.ru",
-    "http://khb.megafon.ru",
-    "http://chel.megafon.ru",
-    "http://chechnya.megafon.ru",
-    "http://chuvashia.megafon.ru",
-    "http://chukotka.megafon.ru",
-    "http://yar.megafon.ru",
-    "http://kchr.megafon.ru",
-    "http://lc.megafon.ru",
-    "http://ks.megafon.ru",
-    "http://tatarstan.megafon.ru",
-    "http://arhangelsk.megafon.ru",
-    "http://altay.megafon.ru",
-    "http://amur.megafon.ru",
-    "http://astrakhan.megafon.ru",
-    "http://bel.megafon.ru",
-    "http://brn.megafon.ru",
-    "http://vl.megafon.ru",
-    "http://vrn.megafon.ru",
-    "http://eao.megafon.ru",
-    "http://moscow.megafon.ru",
-    "http://chita.megafon.ru",
-    "http://iv.megafon.ru",
-    "http://irkutsk.megafon.ru",
-    "http://klg.megafon.ru",
-    "http://kamchatka.megafon.ru",
-    "http://kem.megafon.ru",
-    "http://kirov.megafon.ru",
-    "http://kstr.megafon.ru",
-    "http://krasnodar.megafon.ru",
-    "http://kras.megafon.ru",
-    "http://kurgan.megafon.ru",
-    "http://ks.megafon.ru",
-    "http://lc.megafon.ru",
-    "http://magadan.megafon.ru",
-    "http://orenburg.megafon.ru",
-    "http://orl.megafon.ru",
-    "http://penza.megafon.ru",
-    "http://perm.megafon.ru",
-    "http://prim.megafon.ru",
-    "http://pskov.peterstar.ru",
-    "http://buryatia.megafon.ru",
-    "http://dagestan.megafon.ru",
-    "http://ingushetia.megafon.ru",
-    "http://kbr.megafon.ru",
-    "http://kalmykia.megafon.ru",
-    "http://kchr.megafon.ru",
-    "http://ptz.peterstar.com",
-    "http://komi.megafon.ru",
-    "http://mariel.megafon.ru",
-    "http://mordovia.megafon.ru",
-    "http://sakha.megafon.ru",
-    "http://tyva.megafon.ru",
-    "http://udm.megafon.ru",
-    "http://hakas.megafon.ru",
-    "http://chechnya.megafon.ru",
-    "http://chuvashia.megafon.ru",
-    "http://megafon.ru",
-    "http://skh.megafon.ru",
-    "http://sml.megafon.ru",
-    "http://stavropol.megafon.ru",
-    "http://tmb.megafon.ru",
-    "http://tver.megafon.ru",
-    "http://tula.megafon.ru",
-    "http://tyumen.megafon.ru",
-    "http://ulyanovsk.megafon.ru",
-    "http://khb.megafon.ru",
-    "http://chukotka.megafon.ru",
-    "http://spb.megafon.ru",
-    "http://arhangelsk.megafon.ru",
-    "http://vologda.megafon.ru",
-    "http://vologda.megafon.ru",
-    "http://kaliningrad.megafon.ru",
-    "http://kaliningrad.megafon.ru",
-    "http://murmansk.megafon.ru",
-    "http://yar.megafon.ru",
     "http://volgograd.mts.ru",
     "http://vologda.mts.ru",
     "http://vologda.mts.ru",
@@ -5565,205 +4743,13 @@ raw_urls = [
     "http://mordovia.tele2.ru",
     "http://chechnya.mts.ru",
     "http://eao.mts.ru",
-    "http://msk.tele2.ru",
-    "http://penza.tele2.ru",
-    "http://penza.tele2.ru",
-    "http://samara.tele2.ru",
-    "http://samara.tele2.ru",
-    "http://saratov.tele2.ru",
-    "http://saratov.tele2.ru",
     "http://arh.tele2.ru",
-    "http://kamchatka.tele2.ru",
-    "http://kamchatka.tele2.ru",
-    "http://sakhalin.tele2.ru",
-    "http://sakhalin.tele2.ru",
-    "http://magadan.tele2.ru",
-    "http://msk.tele2.ru",
-    "http://tele2.ru",
-    "http://magadan.tele2.ru",
-    "http://volgograd.tele2.ru",
-    "http://volgograd.tele2.ru",
-    "http://krasnodar.tele2.ru",
     "http://arh.tele2.ru",
     "http://izhevsk.tele2.ru",
     "http://http://e-burg.mts.ru",
-    "http://izhevsk.tele2.ru",
-    "http://krasnodar.tele2.ru",
-    "http://rostov.tele2.ru",
-    "http://rostov.tele2.ru",
-    "http://vologda.tele2.ru",
-    "http://vologda.tele2.ru",
-    "http://kaliningrad.tele2.ru",
-    "http://kaliningrad.tele2.ru",
-    ,
-    "http://tele2.ru",
-    ,
-    "http://tele2.ru",
-    "http://murmansk.tele2.ru",
-    "http://murmansk.tele2.ru",
-    "http://novgorod.tele2.ru",
-    "http://novgorod.tele2.ru",
-    "http://pskov.tele2.ru",
-    "http://pskov.tele2.ru",
-    "http://karelia.tele2.ru",
-    "http://karelia.tele2.ru",
-    
-    
-    "http://ekt.tele2.ru",
-    
-    "http://perm.tele2.ru",
-    "http://perm.tele2.ru",
-    "http://vladimir.tele2.ru",
-    "http://tyumen.tele2.ru",
-    "http://kaluga.tele2.ru",
-    "http://tyumen.tele2.ru",
-    "http://chita.mts.ru",
-    "http://kurgan.tele2.ru",
-    "http://kurgan.tele2.ru",
-    "http://chelyabinsk.tele2.ru",
-    "http://chelyabinsk.tele2.ru",
-    "http://omsk.tele2.ru",
-    "http://irkutsk.tele2.ru",
-    "http://irkutsk.tele2.ru",
-    "http://tomsk.tele2.ru",
-    "http://ivanovo.tele2.ru",
-    "http://tomsk.tele2.ru",
-    "http://kaluga.tele2.ru",
-    "http://novosibirsk.tele2.ru",
-    "http://buryatia.tele2.ru",
-    "http://tambov.tele2.ru",
-    "http://buryatia.tele2.ru",
-    "http://kuzbass.tele2.ru",
-    "http://kuzbass.tele2.ru",
-    
-    
-    
-    
-    
-   
-   
-    
-    
-    
-    "http://vladimir.tele2.ru",
-    "http://voronezh.tele2.ru",
-    "http://ivanovo.mts.ru",
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    "http://megafon.ru",
-    "http://megafon.ru",
-    "http://rzn.megafon.ru",
-    
-    "http://rzn.megafon.ru",
-    "http://beeline.ru",
-    
-    "http://beeline.ru",
-    
-    
-    
-    
-    
-    
-    
-    
-    "http://ivanovo.mts.ru",
-    
-    "http://alania.mts.ru",
-    "http://e-burg.mts.ru",
-    "http://spb.mts.ru",
-    "http://dom.mts.ru",
-    "http://nsk.mts.ru",
-    "http://ryazan.mts.ru",
-    "http://spb.mts.ru",
-    "http://komi.mts.ru",
-    "http://komi.mts.ru",
-    "http://chuvashia.mts.ru",
-    "http://chuvashia.mts.ru",
-    "http://ekt.tele2.ru",
-    
-    "http://spb.beeline.ru",
-    "http://spb.beeline.ru",
-    "http://novosibirsk.tele2.ru",
     "http://mosoblast.rt.ru",
-    
     "http://spb.rt.ru",
     "http://lenoblast.rt.ru",
-    "http://ryazan.tele2.ru",
-    
-    
-    "http://ryazan.beeline.ru",
-    
-    
-    
-    "http://beeline.ru",
-    "http://beeline.ru",
-    
-    
-    "http://novosibirsk.beeline.ru",
-    "http://beeline.ru",
     "http://ekt.rt.ru",
     "http://ryazan.rt.ru",
     "http://novosibirsk.rt.ru",
@@ -5832,10 +4818,6 @@ raw_urls = [
     "http://kuban.mts.ru",
     "http://kras.mts.ru",
     "http://norilsk.mts.ru",
-    "http://kurgan.mts.ru",
-    "http://kurgan.mts.ru",
-    "http://kursk.mts.ru",
-    "http://kursk.mts.ru",
     "http://tyva.mts.ru",
     "http://lipetsk.mts.ru",
     "http://lipetsk.mts.ru",
@@ -5845,22 +4827,10 @@ raw_urls = [
     "http://kuban.mts.ru",
     "http://dagestan.mts.ru",
     "http://spb.mts.ru",
-    "http://dom.mts.ru",
-    "http://dom.mts.ru",
-    "http://murmansk.mts.ru",
     "http://murmansk.mts.ru",
     "http://kbr.mts.ru",
-    "http://nnov.mts.ru",
-    "http://nnov.mts.ru",
-"http://nov.mts.ru"
-    "http://nsk.mts.ru",
-    "http://nsk.mts.ru",
-    "http://omsk.mts.ru",
-    "http://omsk.mts.ru",
     "http://orel.mts.ru",
     "http://orenburg.mts.ru",
-    "http://provodov-net.ru",
-    "http://provodov-net.ru",
     "http://orenburg.mts.ru",
     "http://orel.mts.ru",
     "http://penza.mts.ru",
@@ -5911,12 +4881,8 @@ raw_urls = [
     "http://citylink.pro",
     "http://citylink.pro",
     "http://citylink.pro",
-    "http://dom.mts.ru",
     "http://moscow.megafon.ru",
     "http://almatel.ru",
-    "http://msk.tele2.ru",
-    "http://spb.megafon.ru",
-    "http://inetcom.ru",
     "http://spb.mts.ru",
     "http://spb.beeline.ru",
     "http://kolpinonet.ru",
@@ -5931,15 +4897,11 @@ raw_urls = [
     "http://vyborg.myttk.ru",
     "http://lenoblast.rt.ru",
     "http://at-home.ru",
-    "http://spb.megafon.ru",
     "http://коннекто.рф",
     "http://new-line.net"
     "http://петросвязь.рф",
-    "http://interzet.domru.ru",
-    "http://msk.tele2.ru",
-    "http://dom.mts.ru",
+    
     "http://moscow.megafon.ru",
-    "http://beeline.ru",
     "http://netbynet.ru",
     "http://wifire.ru",
     "http://spb.wifire.ru",
@@ -5948,10 +4910,8 @@ raw_urls = [
     "http://krasnodar.tele2.ru",
     "http://test.ru",
     "http://legchelife.ru",
-    "http://onlime.ru",
     "http://telenethd.ru",
     "http://interzet.dom.ru",
     "http://westcall.spb.ru",
-    "http://interzet.domru.ru",
     "http://mns.ru",
     "http://https://тс.рф/"]
