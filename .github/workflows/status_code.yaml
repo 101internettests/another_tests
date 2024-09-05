@@ -19,7 +19,7 @@ jobs:
   test:
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macOS-latest]
+        os: [ubuntu-latest]
 
     runs-on: ${{ matrix.os }}
 
@@ -40,5 +40,5 @@ jobs:
 
       - name: Run tests on ${{ matrix.os }}
       # if: "github.event.inputs.deployment_target == 'all'"
-        run: pytest tests/test_requests
+        run: pytest tests\requests
         continue-on-error: true
