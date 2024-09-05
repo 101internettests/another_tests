@@ -24,3 +24,7 @@ def driver():
     # driver.maximize_window()
     yield driver
     driver.quit()
+
+    # @pytest.hookimpl(trylast=True)
+    # def pytest_sessionfinish(session, exitstatus):
+    #     bot.send_message(chat_id, "Все тесты сделал, отчет по ссылке - https://101internettests.github.io/autotests/")
