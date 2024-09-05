@@ -40,5 +40,5 @@ jobs:
 
       - name: Run tests on ${{ matrix.os }}
       # if: "github.event.inputs.deployment_target == 'all'"
-        run: pytest tests\requests
+        run: pytest tests/requests
         continue-on-error: true
