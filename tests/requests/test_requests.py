@@ -30,7 +30,7 @@ class TestUrl:
                     print(f"URL: {url} - Status Code: {status_code} (Redirection)")
                 elif 400 >= status_code <= 499:
                     bot.send_message(chat_id, f"Внимание:  {url} статус-код {status_code}")
-                    #bot.send_photo(chat_id, f'http.cat/{status_code}')
+                    bot.send_photo(chat_id, f'http.cat/{status_code}')
                     print(f"URL: {url} - Status Code: {status_code} (Client Error)")
                 elif 500 >= status_code <= 599:
                     bot.send_message(chat_id, f"Внимание:  {url} статус-код {status_code}")
