@@ -1949,5 +1949,6 @@ all_urls = ["https://101internet.ru",
             # "https://piter-online.net/nomera/besplatnye",
             # "https://piter-online.net/nomera/iz-dvuh-cifr",
             # "https://piter-online.net/nomera/nomera-495",
+            # "https://piter-online.net/operatory/mts/ratesmobile",
             # "https://piter-online.net/operatory/mts/ratesmobile"
             ]
